@@ -1,0 +1,248 @@
+/* JA Tabs top*/
+/* JA Tabs left*/
+.feronis .jm-tabs-title-left {
+	position: relative;
+	float: left;
+	height: 100%;
+	background: url(17pxblank.gif) repeat-y right #F7F7F7;
+}
+
+.feronis .jm-tabs-title-left ul.jm-tabs-title li {
+	height: 100%;
+	margin: 0 0 0 1px;
+	padding: 0;
+	cursor: pointer;
+	display: block;
+	background: none;
+}
+
+.feronis .jm-tabs-title-left ul.jm-tabs-title li h3 {
+	font-size: 11px;
+	font-weight: bold !important;
+	line-height: 30px;
+	margin: 0;
+	padding: 0 10px;
+	background: none;
+	font-family: "Lucida Grande", Arial, sans-serif;
+	letter-spacing: normal;
+}
+
+.feronis .jm-tabs-title-left ul li.active,.feronis .jm-tabs-title-left ul li.firstactive,.feronis .jm-tabs-title-left ul li.lastactive
+	{
+	background: url(left-active.gif) no-repeat right #FFFFFF;
+}
+
+.feronis .jm-tabs-title-left ul li.active H3,.feronis .jm-tabs-title-left ul li.firstactive H3,.feronis .jm-tabs-title-left ul li.lastactive H3
+{
+	color: #333333;
+}
+
+/* JA Tabs right*/
+.feronis .jm-tab-panels-right .jm-tab-subcontent {
+	padding-left: 15px !important;
+}
+
+.feronis .jm-tabs-title-right {
+	background: url(17pxblank2.gif) repeat-y left #F7F7F7;
+}
+
+.feronis .jm-tabs-title-right ul.jm-tabs-title li {
+	height: 100%;
+	margin: 0 0 0 1px;
+	padding: 0;
+	cursor: pointer;
+	display: block;
+	background: none;
+}
+
+.feronis .jm-tabs-title-right ul.jm-tabs-title li h3 {
+	font-size: 11px;
+	font-weight: bold !important;
+	line-height: 30px;
+	margin: 0;
+	padding: 0 10px 0 25px;
+	background: none;
+	font-family: "Lucida Grande", Arial, sans-serif;
+	letter-spacing: normal;
+}
+
+.feronis .jm-tabs-title-right ul li.active,.feronis .jm-tabs-title-right ul li.firstactive,.feronis .jm-tabs-title-right ul li.lastactive
+	{
+	background: url(right-active.gif) no-repeat left #FFFFFF;
+}
+
+.feronis .jm-tabs-title-right ul li.active H3,.feronis .jm-tabs-title-right ul li.firstactive H3,.feronis .jm-tabs-title-right ul li.lastactive H3
+	{
+	color: #333333;
+}
+
+/* JA Tabs bottom*/
+.feronis .jm-tabs-title-bottom {
+	background: url(shadow-right-col.gif) no-repeat right 6px;
+	height: 54px !important;
+	border-left: none;
+	position: relative;
+	width: 100%;
+	margin-top: 10px;
+}
+
+.feronis .jm-tabs-title-bottom ul.jm-tabs-title {
+	background: url(grad1.gif) repeat-x left 6px;
+	margin-right: 10px;
+	position: relative;
+}
+
+.feronis .jm-tabs-title-bottom ul.jm-tabs-title li {
+	background: url(v-sep.gif) no-repeat right 7px;
+	border: none;
+}
+
+.feronis .jm-tabs-title-bottom ul.jm-tabs-title li.last {
+	background: none;
+}
+	
+.feronis .jm-tabs-title-bottom ul.jm-tabs-title li h3 {
+	font-size: 100%;
+	font-weight: bold !important;
+	line-height: 46px;
+	height: 42px;
+	margin: 0;
+	padding: 0 20px;
+	border: none;
+	color: #fff;
+	border-bottom: none;
+	text-transform: uppercase;
+}
+
+.feronis .jm-tabs-title-bottom ul.jm-tabs-title li.hover,
+.feronis .jm-tabs-title-bottom ul.jm-tabs-title li.firsthover,
+.feronis .jm-tabs-title-bottom ul.jm-tabs-title li.lasthover	{
+	
+}
+
+.feronis .jm-tabs-title-bottom ul.jm-tabs-title li.active,
+.feronis .jm-tabs-title-bottom ul.jm-tabs-title li.firstactive,
+.feronis .jm-tabs-title-bottom ul.jm-tabs-title li.lastactive {
+}
+
+.feronis .jm-tabs-title-bottom ul li.active h3,
+.feronis .jm-tabs-title-bottom ul li.firstactive h3,
+.feronis .jm-tabs-title-bottom ul li.lastactive h3 {
+	background: url(hb-sep.gif) no-repeat center top;
+}
+
+.feronis .jm-tab-panels-bottom {
+	left: 0;
+}
+
+/* Custom */
+.feronis.jm-tabswrap .jm-tab-content .jm-tab-subcontent {
+	padding: 10px 20px;
+	margin: 0 -10px;
+}
+
+.feronis .jm-tabs-title-top ul.jm-tabs-title {
+	position: static;
+	overflow: hidden;
+}
+
+.feronis .jm-tabs-title-top ul.jm-tabs-title h3 {
+	font-weight: normal;
+	font-size: 150%;
+	padding: 16px 20px;
+	text-transform: uppercase;
+}
+
+.feronis .jm-tabs-title-top ul.jm-tabs-title li {
+	background: url(grad-10.png) left top no-repeat;
+	border: 0;
+}
+
+.feronis .jm-tabs-title-top ul.jm-tabs-title li:first-child {
+	background: none;
+}
+
+.feronis .jm-tabs-title-top ul.jm-tabs-title li.active {
+	background: #8e1c13 url(title-hilite-bg.gif) left top repeat-x;
+}
+
+.feronis .jm-tabs-title-top ul.jm-tabs-title li.active h3 {
+	background: url(arrow-04.gif) center bottom no-repeat;
+	padding-bottom: 18px;
+}
+
+.feronis .jm-tabs-title-top ul.jm-tabs-title li h3 {
+	color: #666;
+}
+
+.feronis .jm-tabs-title-top ul.jm-tabs-title li:hover h3 {
+	color: #000;
+}
+
+.feronis .jm-tabs-title-top ul.jm-tabs-title li.active h3 {
+	color: #fff;
+}
+
+.feronis.jm-tabswrap .jm-tab-content li {
+    padding: 2px 10px;
+}
+
+.feronis div.jmzin-section a, div.jmzin-section span {
+	font-size: 115%;
+	font-weight: normal;	
+}
+
+.feronis .jmzin-more {
+	text-transform: none;
+}
+
+.feronis h2.jmzin-title, h4.jmzin-title {
+	font-size: 110%;
+    font-weight: normal;
+    margin: 10px 0 0;
+}
+
+.feronis h2.jmzin-title a, h4.jmzin-title a {
+	color: #333;
+}
+
+.feronis h2.jmzin-title a:hover, h4.jmzin-title a:hover {
+	color: #D52B1E;
+}
+
+.feronis .jmzin-content img {
+	float: none;
+	padding: 0;
+}
+
+.feronis .jm-cat-left,
+.feronis .jm-cat-center {
+	background: none;
+}
+
+.feronis div.jmzin-section {
+	margin-bottom: 10px;
+}
+
+.feronis .jm-tab-content .block {
+	border: 0;
+	margin: 0;
+}
+
+.feronis .jm-tab-content .block-content {
+	text-align: center;
+	padding: 0;
+}
+
+.feronis .jmzin-box {
+	margin: 10px;
+	border: 1px solid #ddd;
+}
+
+.feronis .jm-tab-content .category-products {
+	padding: 0;
+}
+
+.feronis .jm-cat-right .jmzin-box {
+	margin: 10px;	
+}

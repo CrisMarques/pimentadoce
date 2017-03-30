@@ -1,0 +1,174 @@
+.lingerie .jm-tabswrap {
+}
+.lingerie .jm-tabswrap div.jm-tab-content {	
+	width: 95%;
+}
+/* JA Tabs top*/
+
+.lingerie .jm-tabs-title-top ul.jm-tabs-title { right:0; margin-top:-36px;}
+
+.lingerie .jm-tabs-title-top {
+  border-bottom: 1px solid #ddd;
+  position: relative;
+  width: 100%;
+  margin-top:45px;
+  margin-bottom:20px;
+}
+
+.lingerie .jm-tabs-title-top ul.jm-tabs-title li {
+	background: none;
+	padding-left:10px;
+}
+
+.lingerie .jm-tabs-title-top ul.jm-tabs-title li h3 {
+  font-size: 12px;
+  margin: 0;
+  padding: 0 0 0 15px;
+  background:url(bg_icon_tabs.jpg) no-repeat left center;;
+  font-family: 'Chivo',sans-serif;
+  font-weight: bold;
+  text-transform:uppercase;
+  color:#999; 
+}
+
+.lingerie .jm-tabs-title-top .tab:hover { color: #333 !important; }
+.lingerie .jm-tabs-title-top ul.jm-tabs-title li.hover, 
+.lingerie .jm-tabs-title-top ul.jm-tabs-title li.firsthover,
+.lingerie .jm-tabs-title-top ul.jm-tabs-title li.lasthover { color: #333; }
+
+.lingerie .jm-tabs-title-top ul.jm-tabs-title li.active,
+.lingerie .jm-tabs-title-top ul.jm-tabs-title li.firstactive,
+.lingerie .jm-tabs-title-top ul.jm-tabs-title li.lastactive {
+}
+
+.lingerie .jm-tabs-title-top ul li.active h3 ,
+.lingerie .jm-tabs-title-top ul li.firstactive h3,
+.lingerie .jm-tabs-title-top ul li.lastactive h3 {
+	color: #333;
+}
+
+
+/* JA Tabs left*/
+.lingerie .jm-tabs-title-left {
+	position: relative;
+	float: left;	
+	height: 100%;
+	background: url(17pxblank.gif) repeat-y right #F5F4ED;
+}
+
+.lingerie .jm-tabs-title-left ul.jm-tabs-title li {
+	height: 100%;
+	margin: 0 0 0 1px;
+	padding: 0;
+	cursor: pointer;
+	display: block;
+	background: none;
+}
+
+.lingerie .jm-tabs-title-left ul.jm-tabs-title li h3 {
+	font-size: 11px;
+	font-weight: bold !important;
+	line-height: 30px;
+	margin: 0;
+	padding: 0 10px;
+	background: none;
+	font-family: "Lucida Grande", Arial, sans-serif;
+	letter-spacing: normal;
+}
+
+.lingerie .jm-tabs-title-left ul li.active,
+.lingerie .jm-tabs-title-left ul li.firstactive,
+.lingerie .jm-tabs-title-left ul li.lastactive {
+	background: url(left-active.gif) no-repeat right #FFFFFF;
+}
+
+.lingerie .jm-tabs-title-left ul li.active H3 ,
+.lingerie .jm-tabs-title-left ul li.firstactive H3,
+.lingerie .jm-tabs-title-left ul li.lastactive H3 {
+	color: #FA6900;
+}
+
+
+/* JA Tabs right*/
+.lingerie .jm-tab-panels-right .jm-tab-subcontent {
+	padding-left: 15px !important;
+}
+
+.lingerie .jm-tabs-title-right {
+	background: url(17pxblank2.gif) repeat-y left #F5F4ED;
+}
+
+.lingerie .jm-tabs-title-right ul.jm-tabs-title li {
+	height: 100%;
+	margin: 0 0 0 1px;
+	padding: 0;
+	cursor: pointer;
+	display: block;
+	background: none;
+}
+
+.lingerie .jm-tabs-title-right ul.jm-tabs-title li h3 {
+	font-size: 11px;
+	font-weight: bold !important;
+	line-height: 30px;
+	margin: 0;
+	padding: 0 10px 0 25px;
+	background: none;
+	font-family: "Lucida Grande", Arial, sans-serif;
+	letter-spacing: normal;
+}
+
+.lingerie .jm-tabs-title-right ul li.active,
+.lingerie .jm-tabs-title-right ul li.firstactive,
+.lingerie .jm-tabs-title-right ul li.lastactive {
+	background: url(right-active.gif) no-repeat left #FFFFFF;
+}
+
+.lingerie .jm-tabs-title-right ul li.active H3 ,
+.lingerie .jm-tabs-title-right ul li.firstactive H3,
+.lingerie .jm-tabs-title-right ul li.lastactive H3 {
+	color: #FA6900;
+}
+/* JA Tabs bottom*/
+.lingerie .jm-tabs-title-bottom {
+	width:100%;
+	bottom:0px;
+	height: 30px;
+	border-top: 1px solid #C9C0B7;
+	background: url(grad1.gif) repeat-x top;
+	z-index: 3;
+}
+
+.lingerie .jm-tabs-title-bottom ul.jm-tabs-title li {
+	background: none;
+	border: 1px solid #C9C0B7;
+}
+
+.lingerie .jm-tabs-title-bottom ul.jm-tabs-title li h3 {
+	font-size: 11px;
+	font-weight: bold !important;
+	line-height: 20px;
+	margin: 0;
+	padding: 0 10px;
+	border: 1px solid #F5F4ED;
+	border-top: none;
+	background: none;
+	letter-spacing: normal;
+	font-family: "Lucida Grande", Arial, sans-serif;
+}
+
+.lingerie .jm-tabs-title-bottom ul.jm-tabs-title li.active,
+.lingerie .jm-tabs-title-bottom ul.jm-tabs-title li.firstactive,
+.lingerie .jm-tabs-title-bottom ul.jm-tabs-title li.lastactive {
+	background: #FFFFFF;
+	border-top: 1px solid #FFFFFF;	
+}
+
+.lingerie .jm-tabs-title-bottom ul li.active h3 ,
+.lingerie .jm-tabs-title-bottom ul li.firstactive h3,
+.lingerie .jm-tabs-title-bottom ul li.lastactive h3 {
+	color: #FA6900;
+}
+
+.jm-tabswrap .jm-tab-content .jm-tab-subcontent { padding:0}
+.jm-tabswrap .jm-tab-content li { padding:0 }

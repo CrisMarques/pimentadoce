@@ -1,0 +1,170 @@
+.neros .jm-tabswrap {
+}
+.neros .jm-tabswrap div.jm-tab-content {	
+	width: 95%;
+}
+/* JA Tabs top*/
+.neros .jm-tabs-title-top {
+  height: 30px;
+  border-bottom: 3px solid #ddd;
+  position: relative;
+  width: 100%;
+  margin-bottom: 30px;
+  margin-top: 15px;
+}
+
+.neros .jm-tabs-title-top ul.jm-tabs-title li {
+	background: none;
+}
+
+.neros .jm-tabs-title-top ul.jm-tabs-title li h3 {
+  font-size: 16px;
+  line-height: 20px;
+  margin: 0;
+  padding: 0 0 0 20px;
+  background: none;
+  letter-spacing: normal;
+  font-weight: 600;
+}
+
+.neros .jm-tabs-title-top .tab:hover { color: #8cbf26 !important; }
+.neros .jm-tabs-title-top ul.jm-tabs-title li.hover, 
+.neros .jm-tabs-title-top ul.jm-tabs-title li.firsthover,
+.neros .jm-tabs-title-top ul.jm-tabs-title li.lasthover { color: #1ba1e2; }
+
+.neros .jm-tabs-title-top ul.jm-tabs-title li.active,
+.neros .jm-tabs-title-top ul.jm-tabs-title li.firstactive,
+.neros .jm-tabs-title-top ul.jm-tabs-title li.lastactive {
+	background: #FFFFFF;
+}
+
+.neros .jm-tabs-title-top ul li.active h3 ,
+.neros .jm-tabs-title-top ul li.firstactive h3,
+.neros .jm-tabs-title-top ul li.lastactive h3 {
+	color: #1ba1e2;
+}
+
+/* JA Tabs left*/
+.neros .jm-tabs-title-left {
+	position: relative;
+	float: left;	
+	height: 100%;
+	background: url(17pxblank.gif) repeat-y right #F5F4ED;
+}
+
+.neros .jm-tabs-title-left ul.jm-tabs-title li {
+	height: 100%;
+	margin: 0 0 0 1px;
+	padding: 0;
+	cursor: pointer;
+	display: block;
+	background: none;
+}
+
+.neros .jm-tabs-title-left ul.jm-tabs-title li h3 {
+	font-size: 11px;
+	font-weight: bold !important;
+	line-height: 30px;
+	margin: 0;
+	padding: 0 10px;
+	background: none;
+	font-family: "Lucida Grande", Arial, sans-serif;
+	letter-spacing: normal;
+}
+
+.neros .jm-tabs-title-left ul li.active,
+.neros .jm-tabs-title-left ul li.firstactive,
+.neros .jm-tabs-title-left ul li.lastactive {
+	background: url(left-active.gif) no-repeat right #FFFFFF;
+}
+
+.neros .jm-tabs-title-left ul li.active H3 ,
+.neros .jm-tabs-title-left ul li.firstactive H3,
+.neros .jm-tabs-title-left ul li.lastactive H3 {
+	color: #FA6900;
+}
+
+
+/* JA Tabs right*/
+.neros .jm-tab-panels-right .jm-tab-subcontent {
+	padding-left: 15px !important;
+}
+
+.neros .jm-tabs-title-right {
+	background: url(17pxblank2.gif) repeat-y left #F5F4ED;
+}
+
+.neros .jm-tabs-title-right ul.jm-tabs-title li {
+	height: 100%;
+	margin: 0 0 0 1px;
+	padding: 0;
+	cursor: pointer;
+	display: block;
+	background: none;
+}
+
+.neros .jm-tabs-title-right ul.jm-tabs-title li h3 {
+	font-size: 11px;
+	font-weight: bold !important;
+	line-height: 30px;
+	margin: 0;
+	padding: 0 10px 0 25px;
+	background: none;
+	font-family: "Lucida Grande", Arial, sans-serif;
+	letter-spacing: normal;
+}
+
+.neros .jm-tabs-title-right ul li.active,
+.neros .jm-tabs-title-right ul li.firstactive,
+.neros .jm-tabs-title-right ul li.lastactive {
+	background: url(right-active.gif) no-repeat left #FFFFFF;
+}
+
+.neros .jm-tabs-title-right ul li.active H3 ,
+.neros .jm-tabs-title-right ul li.firstactive H3,
+.neros .jm-tabs-title-right ul li.lastactive H3 {
+	color: #FA6900;
+}
+/* JA Tabs bottom*/
+.neros .jm-tabs-title-bottom {
+	width:100%;
+	bottom:0px;
+	height: 30px;
+	border-top: 1px solid #C9C0B7;
+	background: url(grad1.gif) repeat-x top;
+	z-index: 3;
+}
+
+.neros .jm-tabs-title-bottom ul.jm-tabs-title li {
+	background: none;
+	border: 1px solid #C9C0B7;
+}
+
+.neros .jm-tabs-title-bottom ul.jm-tabs-title li h3 {
+	font-size: 11px;
+	font-weight: bold !important;
+	line-height: 20px;
+	margin: 0;
+	padding: 0 10px;
+	border: 1px solid #F5F4ED;
+	border-top: none;
+	background: none;
+	letter-spacing: normal;
+	font-family: "Lucida Grande", Arial, sans-serif;
+}
+
+.neros .jm-tabs-title-bottom ul.jm-tabs-title li.active,
+.neros .jm-tabs-title-bottom ul.jm-tabs-title li.firstactive,
+.neros .jm-tabs-title-bottom ul.jm-tabs-title li.lastactive {
+	background: #FFFFFF;
+	border-top: 1px solid #FFFFFF;	
+}
+
+.neros .jm-tabs-title-bottom ul li.active h3 ,
+.neros .jm-tabs-title-bottom ul li.firstactive h3,
+.neros .jm-tabs-title-bottom ul li.lastactive h3 {
+	color: #FA6900;
+}
+
+.jm-tabswrap .jm-tab-content .jm-tab-subcontent { padding:0}
+.jm-tabswrap .jm-tab-content li { padding:0 }

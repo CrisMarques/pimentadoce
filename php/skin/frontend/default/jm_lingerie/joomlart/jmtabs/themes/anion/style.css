@@ -1,0 +1,203 @@
+.anion .jm-tabswrap {
+	border: 1px solid #C9C0B7;
+}
+.anion .jm-tabswrap div.jm-tab-content {	
+	width: 95%;
+}
+
+.anion .jm-tab-content .jm-tab-subcontent {
+	padding: 10px 20px;
+}
+
+.anion .jm-tab-content .jm-tab-subcontent li {
+	padding: 10px 0;
+	background: url(menu-line.gif) repeat-x left bottom;
+	display: block;
+	width: 100%;
+}
+
+.anion .jm-tab-content .jm-tab-subcontent li.last {
+	background: none;
+}
+
+/* JA Tabs top*/
+.anion .jm-tabs-title-top {	
+	color: #555555;
+	font-weight: bold;
+	margin: 0;
+	overflow: hidden;
+	padding: 10px 0 10px 10px;
+	background: url(grad1.gif) repeat-x top;
+	text-transform: uppercase;
+	position: relative;
+	height: 20px;
+}
+
+.anion .jm-tabs-title-top ul.jm-tabs-title {
+	top: 10px;
+	left: 10px;
+}
+
+.anion .jm-tabs-title-top ul.jm-tabs-title li {
+	color: #b3d2f1;
+	font-weight: bold;
+	margin: 0 0 0 10px;
+	overflow: hidden;
+	background: none;
+	text-transform: uppercase;
+	padding: 0;
+}
+
+.anion .jm-tabs-title-top ul.jm-tabs-title li h3 {
+	background: url(title-bg2-left.gif) no-repeat left center;
+	padding-left: 10px;
+	line-height: 20px;
+	height: 20px;
+	display: block;
+	float: left;
+	font-size: 80%;
+}
+
+.anion .jm-tabs-title-top ul.jm-tabs-title li h3 span {
+	background: url(title-bg2-right.gif) no-repeat right center;
+	display: block;
+	line-height: 20px;
+	height: 20px;
+	padding-right: 10px;
+	float: left;
+}
+
+.anion .jm-tabs-title-top ul.jm-tabs-title li.hover,
+.anion .jm-tabs-title-top ul.jm-tabs-title li.firsthover,
+.anion .jm-tabs-title-top ul.jm-tabs-title li.lasthover {}
+
+.anion .jm-tabs-title-top ul.jm-tabs-title li.active,
+.anion .jm-tabs-title-top ul.jm-tabs-title li.firstactive,
+.anion .jm-tabs-title-top ul.jm-tabs-title li.lastactive {
+	color: #fff;
+}
+
+.anion .jm-tabs-title-top ul li.active h3 ,
+.anion .jm-tabs-title-top ul li.firstactive h3,
+.anion .jm-tabs-title-top ul li.lastactive h3 {}
+
+/* JA Tabs left*/
+.anion .jm-tabs-title-left {
+	position: relative;
+	float: left;	
+	height: 100%;
+	background: url(17pxblank.gif) repeat-y right #F5F4ED;
+}
+
+.anion .jm-tabs-title-left ul.jm-tabs-title li {
+	height: 100%;
+	margin: 0 0 0 1px;
+	padding: 0;
+	cursor: pointer;
+	display: block;
+	background: none;
+}
+
+.anion .jm-tabs-title-left ul.jm-tabs-title li h3 {
+	font-size: 11px;
+	font-weight: bold !important;
+	line-height: 30px;
+	margin: 0;
+	padding: 0 10px;
+	background: none;
+	font-family: "Lucida Grande", Arial, sans-serif;
+	letter-spacing: normal;
+}
+
+.anion .jm-tabs-title-left ul li.active,
+.anion .jm-tabs-title-left ul li.firstactive,
+.anion .jm-tabs-title-left ul li.lastactive {
+	background: url(left-active.gif) no-repeat right #FFFFFF;
+}
+
+.anion .jm-tabs-title-left ul li.active H3 ,
+.anion .jm-tabs-title-left ul li.firstactive H3,
+.anion .jm-tabs-title-left ul li.lastactive H3 {
+	color: #FA6900;
+}
+
+/* JA Tabs right*/
+.anion .jm-tab-panels-right .jm-tab-subcontent {
+	padding-left: 15px !important;
+}
+
+.anion .jm-tabs-title-right {
+	background: url(17pxblank2.gif) repeat-y left #F5F4ED;
+}
+
+.anion .jm-tabs-title-right ul.jm-tabs-title li {
+	height: 100%;
+	margin: 0 0 0 1px;
+	padding: 0;
+	cursor: pointer;
+	display: block;
+	background: none;
+}
+
+.anion .jm-tabs-title-right ul.jm-tabs-title li h3 {
+	font-size: 11px;
+	font-weight: bold !important;
+	line-height: 30px;
+	margin: 0;
+	padding: 0 10px 0 25px;
+	background: none;
+	font-family: "Lucida Grande", Arial, sans-serif;
+	letter-spacing: normal;
+}
+
+.anion .jm-tabs-title-right ul li.active,
+.anion .jm-tabs-title-right ul li.firstactive,
+.anion .jm-tabs-title-right ul li.lastactive {
+	background: url(right-active.gif) no-repeat left #FFFFFF;
+}
+
+.anion .jm-tabs-title-right ul li.active H3 ,
+.anion .jm-tabs-title-right ul li.firstactive H3,
+.anion .jm-tabs-title-right ul li.lastactive H3 {
+	color: #FA6900;
+}
+/* JA Tabs bottom*/
+.anion .jm-tabs-title-bottom {
+	width:100%;
+	bottom:0px;
+	height: 30px;
+	border-top: 1px solid #C9C0B7;
+	background: url(grad1.gif) repeat-x top;
+	z-index: 3;
+}
+
+.anion .jm-tabs-title-bottom ul.jm-tabs-title li {
+	background: none;
+	border: 1px solid #C9C0B7;
+}
+
+.anion .jm-tabs-title-bottom ul.jm-tabs-title li h3 {
+	font-size: 11px;
+	font-weight: bold !important;
+	line-height: 20px;
+	margin: 0;
+	padding: 0 10px;
+	border: 1px solid #F5F4ED;
+	border-top: none;
+	background: none;
+	letter-spacing: normal;
+	font-family: "Lucida Grande", Arial, sans-serif;
+}
+
+.anion .jm-tabs-title-bottom ul.jm-tabs-title li.active,
+.anion .jm-tabs-title-bottom ul.jm-tabs-title li.firstactive,
+.anion .jm-tabs-title-bottom ul.jm-tabs-title li.lastactive {
+	background: #FFFFFF;
+	border-top: 1px solid #FFFFFF;	
+}
+
+.anion .jm-tabs-title-bottom ul li.active h3 ,
+.anion .jm-tabs-title-bottom ul li.firstactive h3,
+.anion .jm-tabs-title-bottom ul li.lastactive h3 {
+	color: #FA6900;
+}

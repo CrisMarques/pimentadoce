@@ -1,0 +1,205 @@
+.easyshop .jm-tabswrap {
+	border: 1px solid #CCCCCC;
+}
+
+.easyshop .jm-tabswrap div.jm-tab-content {
+	width: 95%;
+}
+
+.easyshop .container {
+	height: auto;
+	padding-bottom: 10px;
+}
+
+/* JA Tabs top*/
+.easyshop .jm-tabs-title-top {
+	border-left: none;
+	position: relative;
+	background: #fff url(tab-bg.gif) left bottom repeat-x;
+}
+
+.easyshop .jm-tabs-title-top ul.jm-tabs-title {
+	position: relative;
+}
+
+.easyshop .jm-tabs-title-top ul.jm-tabs-title li {
+	border: 1px solid #ddd;
+	border-bottom: 0;
+	margin-right: 5px;
+}
+
+.easyshop .jm-tabs-title-top ul.jm-tabs-title li.last {
+	background: none;
+}
+
+.easyshop .jm-tabs-title-top ul.jm-tabs-title li h3 {
+	font-family: "Arial Narrow",Arial,Helvetica,sans-serif;
+	font-size: 150%;
+	margin: 0;
+	padding: 5px 20px;
+	border: none;
+	color: #282724;
+	border-bottom: none;
+	float: left;
+	font-weight: normal;
+}
+
+.easyshop .jm-tabs-title-top ul.jm-tabs-title li h3 span {
+
+}
+
+.easyshop .jm-tabs-title-top ul.jm-tabs-title li.hover,
+.easyshop .jm-tabs-title-top ul.jm-tabs-title li.firsthover,
+.easyshop .jm-tabs-title-top ul.jm-tabs-title li.lasthover {}
+
+.easyshop .jm-tabs-title-top ul.jm-tabs-title li:hover,
+.easyshop .jm-tabs-title-top ul.jm-tabs-title li.active,
+.easyshop .jm-tabs-title-top ul.jm-tabs-title li.firstactive,
+.easyshop .jm-tabs-title-top ul.jm-tabs-title li.lastactive {
+	border-bottom: none;
+	background: #fff;
+}
+
+.easyshop .jm-tabs-title-top ul li.active h3,
+.easyshop .jm-tabs-title-top ul li.firstactive h3,
+.easyshop .jm-tabs-title-top ul li.lastactive h3 	{}
+
+.jm-tabswrap.easyshop div.jm-tab-subcontent {
+	padding: 0 !important;
+}
+
+/* JA Tabs left*/
+.easyshop .jm-tabs-title-left {
+	position: relative;
+	float: left;
+	height: 100%;
+	background: url(17pxblank.gif) repeat-y right #F7F7F7;
+}
+
+.easyshop .jm-tabs-title-left ul.jm-tabs-title li {
+	height: 100%;
+	margin: 0 0 0 1px;
+	padding: 0;
+	cursor: pointer;
+	display: block;
+	background: none;
+}
+
+.easyshop .jm-tabs-title-left ul.jm-tabs-title li h3 {
+	font-size: 11px;
+	font-weight: bold !important;
+	line-height: 30px;
+	margin: 0;
+	padding: 0 10px;
+	background: none;
+	font-family: "Lucida Grande", Arial, sans-serif;
+	letter-spacing: normal;
+}
+
+.easyshop .jm-tabs-title-left ul li.active,.easyshop .jm-tabs-title-left ul li.firstactive,.easyshop .jm-tabs-title-left ul li.lastactive
+	{
+	background: url(left-active.gif) no-repeat right #FFFFFF;
+}
+
+.easyshop .jm-tabs-title-left ul li.active H3,.easyshop .jm-tabs-title-left ul li.firstactive H3,.easyshop .jm-tabs-title-left ul li.lastactive H3
+{
+	color: #333333;
+}
+
+/* JA Tabs right*/
+.easyshop .jm-tab-panels-right .jm-tab-subcontent {
+	padding-left: 15px !important;
+}
+
+.easyshop .jm-tabs-title-right {
+	background: url(17pxblank2.gif) repeat-y left #F7F7F7;
+}
+
+.easyshop .jm-tabs-title-right ul.jm-tabs-title li {
+	height: 100%;
+	margin: 0 0 0 1px;
+	padding: 0;
+	cursor: pointer;
+	display: block;
+	background: none;
+}
+
+.easyshop .jm-tabs-title-right ul.jm-tabs-title li h3 {
+	font-size: 11px;
+	font-weight: bold !important;
+	line-height: 30px;
+	margin: 0;
+	padding: 0 10px 0 25px;
+	background: none;
+	font-family: "Lucida Grande", Arial, sans-serif;
+	letter-spacing: normal;
+}
+
+.easyshop .jm-tabs-title-right ul li.active,.easyshop .jm-tabs-title-right ul li.firstactive,.easyshop .jm-tabs-title-right ul li.lastactive
+{
+	background: url(right-active.gif) no-repeat left #FFFFFF;
+}
+
+.easyshop .jm-tabs-title-right ul li.active H3,.easyshop .jm-tabs-title-right ul li.firstactive H3,.easyshop .jm-tabs-title-right ul li.lastactive H3
+	{
+	color: #333333;
+}
+
+/* JA Tabs bottom*/
+.easyshop .jm-tabs-title-bottom {
+	height: 54px !important;
+	border-left: none;
+	position: relative;
+	width: 100%;
+	margin-top: 10px;
+}
+
+.easyshop .jm-tabs-title-bottom ul.jm-tabs-title {
+	margin-right: 10px;
+	position: relative;
+}
+
+.easyshop .jm-tabs-title-bottom ul.jm-tabs-title li {
+	border: none;
+}
+
+.easyshop .jm-tabs-title-bottom ul.jm-tabs-title li.last {
+	background: none;
+}
+	
+.easyshop .jm-tabs-title-bottom ul.jm-tabs-title li h3 {
+	font-size: 100%;
+	font-weight: bold !important;
+	line-height: 46px;
+	height: 42px;
+	margin: 0;
+	padding: 0 20px;
+	border: none;
+	color: #fff;
+	border-bottom: none;
+	text-transform: uppercase;
+}
+
+.easyshop .jm-tabs-title-bottom ul.jm-tabs-title li.hover,
+.easyshop .jm-tabs-title-bottom ul.jm-tabs-title li.firsthover,
+.easyshop .jm-tabs-title-bottom ul.jm-tabs-title li.lasthover	{
+	
+}
+
+.easyshop .jm-tabs-title-bottom ul.jm-tabs-title li.active,
+.easyshop .jm-tabs-title-bottom ul.jm-tabs-title li.firstactive,
+.easyshop .jm-tabs-title-bottom ul.jm-tabs-title li.lastactive {
+}
+
+.easyshop .jm-tabs-title-bottom ul li.active h3,
+.easyshop .jm-tabs-title-bottom ul li.firstactive h3,
+.easyshop .jm-tabs-title-bottom ul li.lastactive h3 {}
+
+.easyshop .jm-tab-panels-bottom {
+	left: 0;
+}
+
+.easyshop.jm-tabswrap .jm-tab-content li {
+	padding: 0 !important;
+	border-top: 0;
+}

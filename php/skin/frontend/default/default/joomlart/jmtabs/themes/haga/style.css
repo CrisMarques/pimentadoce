@@ -1,0 +1,244 @@
+.block.jm-tabs {
+  margin-bottom: 0;  
+}
+
+.block.jm-tabs .block-title {
+   background: url(light-title.gif) repeat-x left center;
+}
+
+.block.jm-tabs .block-title  strong {
+    background: #fff;
+    padding-right: 20px;
+}
+
+.block.jm-tabs .block-content {
+  padding: 30px 0 0;
+}
+
+.jm-tabswrap .jm-tab-content li {
+  padding: 0;
+}
+.jm-tab-content {
+  width: 100% !important;
+}
+.haga .jm-tabswrap {
+	border: 1px solid #C9C0B7;
+}
+
+.haga .jm-tabswrap div.jm-tab-content {	
+	width: 95%;
+}
+
+.jm-tabswrap .jm-tab-content .jm-tab-subcontent {
+  padding: 0 0 0 20px;
+}
+
+/* JA Tabs top*/
+.haga .jm-tabs-title-top {
+	height: 30px;
+	position: relative;
+	width: 100%;
+}
+
+.haga .jm-tabs-title-top ul.jm-tabs-title {
+	background: url(dot.gif) repeat-x left bottom;
+	width: 100%;
+}
+
+.haga .jm-tabs-title-top ul.jm-tabs-title li {
+	background: none;
+	border: 1px solid #C9C0B7;
+	margin-left: 10px;
+}
+
+.haga .jm-tabs-title-top ul.jm-tabs-title li.first {
+}
+
+.haga .jm-tabs-title-top ul.jm-tabs-title li h3 {
+	font-size: 11px;
+	font-weight: bold !important;
+	line-height: 20px;
+	margin: 0;
+	padding: 0 10px;
+	border: 1px solid #F5F4ED;
+	border-bottom: none;
+	background: none;
+	letter-spacing: normal;
+	font-family: "Lucida Grande", Arial, sans-serif;
+}
+
+.haga .jm-tabs-title-top ul.jm-tabs-title li.hover,
+.haga .jm-tabs-title-top ul.jm-tabs-title li.firsthover,
+.haga .jm-tabs-title-top ul.jm-tabs-title li.lasthover {
+}
+
+.haga .jm-tabs-title-top ul.jm-tabs-title li.active,
+.haga .jm-tabs-title-top ul.jm-tabs-title li.firstactive,
+.haga .jm-tabs-title-top ul.jm-tabs-title li.lastactive {
+	background: #FFFFFF;
+	border-bottom: 1px solid #FFFFFF;
+}
+
+.haga .jm-tabs-title-top ul li.active h3 ,
+.haga .jm-tabs-title-top ul li.firstactive h3,
+.haga .jm-tabs-title-top ul li.lastactive h3 {
+	color: #000;
+}
+
+/* JA Tabs left*/
+.haga .jm-tabs-title-left {
+	position: relative;
+	float: left;	
+	height: 100%;
+	z-index: 1;
+	width: 220px;
+}
+
+.haga .jm-tabs-title-left ul.jm-tabs-title {
+  border-bottom: 1px solid #e7e7e7;
+}
+
+.haga .jm-tabs-title-left ul.jm-tabs-title li {
+	height: 100%;
+	padding: 5px 0 5px 55px;
+	cursor: pointer;
+	display: block;
+	background: url(icon-1.gif) no-repeat left top;
+	padding-left: 55px;
+	border-left: 1px solid #e7e7e7;
+	border-right: 1px solid #e7e7e7;
+  border-top: 1px solid #e7e7e7;
+}
+
+.haga .jm-tabs-title-left ul.jm-tabs-title li:nth-child(2n+2) {
+	background-image: url(icon-2.gif);
+}
+
+.haga .jm-tabs-title-left ul.jm-tabs-title li:nth-child(2n+3) {
+	background-image: url(icon-3.gif);
+}
+
+.haga .jm-tabs-title-left ul.jm-tabs-title li:nth-child(2n+4) {
+	background-image: url(icon-4.gif);
+}
+
+.haga .jm-tabs-title-left ul.jm-tabs-title li h3 {
+	font-size: 14px;
+	font-weight: normal;
+	line-height: 40px;
+	margin: 0;
+	padding: 0;
+	background: none;
+	color: #484848;
+}
+
+.haga .jm-tabs-title-left ul li.active,
+.haga .jm-tabs-title-left ul li.firstactive,
+.haga .jm-tabs-title-left ul li.lastactive {
+  background-position: left bottom;
+  border-right: 0;
+}
+
+.haga .jm-tabs-title-left ul li.active H3 ,
+.haga .jm-tabs-title-left ul li.firstactive H3,
+.haga .jm-tabs-title-left ul li.lastactive H3 {
+	color: #000;
+}
+
+.haga .jm-tabs-title-left + .tabs_content { }
+
+.haga .jm-tab-panels-left {
+	left: 0;
+	top: 0;
+}
+/* JA Tabs right*/
+.haga .jm-tabs-title-right {
+	position: relative;
+	float: right;	
+	height: 100%;
+	background: #F5F4ED;
+	margin-right: -1px;
+	z-index: 1;
+}
+
+.haga .jm-tabs-title-right ul.jm-tabs-title li {
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	cursor: pointer;
+	display: block;
+	background: none;
+}
+
+.haga .jm-tabs-title-right ul.jm-tabs-title li h3 {
+	font-size: 11px;
+	font-weight: bold !important;
+	line-height: 30px;
+	margin: 0;
+	padding: 0 10px;
+	background: none;
+	font-family: "Lucida Grande", Arial, sans-serif;
+	letter-spacing: normal;
+}
+
+.haga .jm-tabs-title-right ul li.active,
+.haga .jm-tabs-title-right ul li.firstactive,
+.haga .jm-tabs-title-right ul li.lastactive {
+	background: #fff;
+}
+
+.haga .jm-tabs-title-right ul li.active H3 ,
+.haga .jm-tabs-title-right ul li.firstactive H3,
+.haga .jm-tabs-title-right ul li.lastactive H3 {
+	color: #000;
+}
+
+.haga .jm-tab-panels-right {
+	right: 0;
+	top: 0;
+	background: url(dot.gif) repeat-y right top;
+}
+/* JA Tabs bottom*/
+.haga .jm-tabs-title-bottom {
+	width: 100%;
+	bottom: 0px;
+	height: 30px;
+	z-index: 3;
+}
+
+.haga .jm-tabs-title-bottom ul.jm-tabs-title {
+	background: url(dot.gif) repeat-x left top;
+	width: 100%;
+}
+
+.haga .jm-tabs-title-bottom ul.jm-tabs-title li {
+	background: none;
+	border: 1px solid #C9C0B7;
+	margin-left: 10px;
+}
+
+.haga .jm-tabs-title-bottom ul.jm-tabs-title li h3 {
+	font-size: 11px;
+	font-weight: bold !important;
+	line-height: 20px;
+	margin: 0;
+	padding: 0 10px;
+	border: 1px solid #F5F4ED;
+	border-top: none;
+	background: none;
+	letter-spacing: normal;
+	font-family: "Lucida Grande", Arial, sans-serif;
+}
+
+.haga .jm-tabs-title-bottom ul.jm-tabs-title li.active,
+.haga .jm-tabs-title-bottom ul.jm-tabs-title li.firstactive,
+.haga .jm-tabs-title-bottom ul.jm-tabs-title li.lastactive {
+	background: #FFFFFF;
+	border-top: 1px solid #FFFFFF;	
+}
+
+.haga .jm-tabs-title-bottom ul li.active h3 ,
+.haga .jm-tabs-title-bottom ul li.firstactive h3,
+.haga .jm-tabs-title-bottom ul li.lastactive h3 {
+	color: #000;
+}

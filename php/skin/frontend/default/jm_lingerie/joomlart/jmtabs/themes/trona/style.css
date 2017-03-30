@@ -1,0 +1,118 @@
+.trona .container {
+	border: 1px solid #E0E0E0;
+}
+
+.trona .jm-tabswrap div.jm-tab-content {	
+	width: 95%;
+}
+
+.jm-tabswrap div.jm-tab-subcontent {
+	padding: 10px !important;
+}
+
+/* JA Tabs top*/
+.trona .jm-tabs-title-top {
+	background: url(tab-title-bg.gif) repeat-x left bottom #F8F8F8;
+	position: relative;
+	width: 100%;
+}
+
+.trona .jm-tabs-title-top ul.jm-tabs-title {
+	padding: 5px 0 0 10px;
+	display: block;
+	left: 0;
+	top: 0;
+}
+
+.trona .jm-tabs-title-top ul.jm-tabs-title li {
+	margin-right: 5px;
+	padding: 0;
+}
+
+.trona .jm-tabs-title-top ul.jm-tabs-title li h3 {
+	color: #666666;
+	font-size: 10px;
+	font-weight: bold !important;
+	line-height: 25px;
+	padding: 0 10px;
+	margin: 0;
+	letter-spacing: normal;
+	text-transform: uppercase;
+	float: left;
+}
+
+.trona .jm-tabs-title-top ul.jm-tabs-title li h3 span {
+	background: none;
+}
+
+.trona .jm-tabs-title-top ul.jm-tabs-title li.hover,
+.trona .jm-tabs-title-top ul.jm-tabs-title li.firsthover,
+.trona .jm-tabs-title-top ul.jm-tabs-title li.lasthover {
+}
+
+.trona .jm-tabs-title-top ul.jm-tabs-title li.active,
+.trona .jm-tabs-title-top ul.jm-tabs-title li.firstactive,
+.trona .jm-tabs-title-top ul.jm-tabs-title li.lastactive {
+	background: #FFFFFF;
+	border: 1px solid #E0E0E0;
+	border-bottom: none;
+}
+
+.trona .jm-tabs-title-top ul li.active h3,
+.trona .jm-tabs-title-top ul li.firstactive h3,
+.trona .jm-tabs-title-top ul li.lastactive h3 {
+	color: #D7025F;
+}
+
+/* JA Tabs bottom */
+.jm-tab-panels-bottom .jm-tab-content div.jm-tab-subcontent {
+	padding: 20px 10px 10px !important;
+}
+
+.trona .jm-tabs-title-bottom {
+	background: url(tab-bot-title-bg.gif) repeat-x left top #F8F8F8;
+	position: relative;
+	height: 31px;
+	z-index: 3;
+	width: 100%;
+}
+
+.trona .jm-tabs-title-bottom ul.jm-tabs-title {
+	padding: 0 0 15px 10px;
+	top: 0;
+	left: 0;
+}
+
+.trona .jm-tabs-title-bottom ul.jm-tabs-title li {
+	margin-right: 5px;
+	background: none;
+}
+
+.trona .jm-tabs-title-bottom ul.jm-tabs-title li h3 {
+	color: #666666;
+	font-size: 10px;
+	font-weight: bold !important;
+	line-height: 25px;
+	margin: 0;
+	padding: 0 10px;
+	letter-spacing: normal;
+	text-transform: uppercase;
+}
+
+.trona .jm-tabs-title-bottom ul.jm-tabs-title li h3 span {
+	background: none !important;
+}
+
+.trona .jm-tabs-title-bottom ul.jm-tabs-title li.active,
+.trona .jm-tabs-title-bottom ul.jm-tabs-title li.firstactive,
+.trona .jm-tabs-title-bottom ul.jm-tabs-title li.lastactive {
+	background: #FFFFFF;
+	border: 1px solid #E0E0E0;
+	border-top: none;
+}
+
+.trona .jm-tabs-title-bottom ul li.active h3,
+.trona .jm-tabs-title-bottom ul li.firstactive h3,
+.trona .jm-tabs-title-bottom ul li.lastactive h3 {
+	color: #D7025F;
+}

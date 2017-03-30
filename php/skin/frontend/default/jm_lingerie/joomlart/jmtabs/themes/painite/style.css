@@ -1,0 +1,198 @@
+.painite .jm-tabswrap {
+	border: 1px solid #CCCCCC;
+}
+
+.painite .jm-tabswrap div.jm-tab-content {
+	width: 95%;
+}
+
+.painite .container {
+	height: auto;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+/* JA Tabs top*/
+.painite .jm-tabs-title-top {
+	border-left: none;
+	position: relative;
+	background: #eee;
+	border: 1px solid #e3e3e3;
+}
+
+.painite .jm-tabs-title-top ul.jm-tabs-title {
+	position: relative;
+}
+
+.painite .jm-tabs-title-top ul.jm-tabs-title li {
+	border: none;
+}
+
+.painite .jm-tabs-title-top ul.jm-tabs-title li.last {
+	background: none;
+}
+
+.painite .jm-tabs-title-top ul.jm-tabs-title li h3 {
+	font-size: 150%;
+	margin: 0;
+	padding: 10px;
+	border: none;
+	color: #282724;
+	border-bottom: none;
+	float: left;
+	font-weight: normal;
+}
+
+.painite .jm-tabs-title-top ul.jm-tabs-title li h3 span {
+
+}
+
+.painite .jm-tabs-title-top ul.jm-tabs-title li.hover,
+.painite .jm-tabs-title-top ul.jm-tabs-title li.firsthover,
+.painite .jm-tabs-title-top ul.jm-tabs-title li.lasthover {}
+
+.painite .jm-tabs-title-top ul.jm-tabs-title li.active,
+.painite .jm-tabs-title-top ul.jm-tabs-title li.firstactive,
+.painite .jm-tabs-title-top ul.jm-tabs-title li.lastactive {
+	border-bottom: none;
+	background: #ddd;
+}
+
+.painite .jm-tabs-title-top ul li.active h3,
+.painite .jm-tabs-title-top ul li.firstactive h3,
+.painite .jm-tabs-title-top ul li.lastactive h3 	{}
+
+.jm-tabswrap.painite div.jm-tab-subcontent {
+	padding: 0 !important;
+}
+
+/* JA Tabs left*/
+.painite .jm-tabs-title-left {
+	position: relative;
+	float: left;
+	height: 100%;
+	background: url(17pxblank.gif) repeat-y right #F7F7F7;
+}
+
+.painite .jm-tabs-title-left ul.jm-tabs-title li {
+	height: 100%;
+	margin: 0 0 0 1px;
+	padding: 0;
+	cursor: pointer;
+	display: block;
+	background: none;
+}
+
+.painite .jm-tabs-title-left ul.jm-tabs-title li h3 {
+	font-size: 11px;
+	font-weight: bold !important;
+	line-height: 30px;
+	margin: 0;
+	padding: 0 10px;
+	background: none;
+	font-family: "Lucida Grande", Arial, sans-serif;
+	letter-spacing: normal;
+}
+
+.painite .jm-tabs-title-left ul li.active,.painite .jm-tabs-title-left ul li.firstactive,.painite .jm-tabs-title-left ul li.lastactive
+	{
+	background: url(left-active.gif) no-repeat right #FFFFFF;
+}
+
+.painite .jm-tabs-title-left ul li.active H3,.painite .jm-tabs-title-left ul li.firstactive H3,.painite .jm-tabs-title-left ul li.lastactive H3
+{
+	color: #333333;
+}
+
+/* JA Tabs right*/
+.painite .jm-tab-panels-right .jm-tab-subcontent {
+	padding-left: 15px !important;
+}
+
+.painite .jm-tabs-title-right {
+	background: url(17pxblank2.gif) repeat-y left #F7F7F7;
+}
+
+.painite .jm-tabs-title-right ul.jm-tabs-title li {
+	height: 100%;
+	margin: 0 0 0 1px;
+	padding: 0;
+	cursor: pointer;
+	display: block;
+	background: none;
+}
+
+.painite .jm-tabs-title-right ul.jm-tabs-title li h3 {
+	font-size: 11px;
+	font-weight: bold !important;
+	line-height: 30px;
+	margin: 0;
+	padding: 0 10px 0 25px;
+	background: none;
+	font-family: "Lucida Grande", Arial, sans-serif;
+	letter-spacing: normal;
+}
+
+.painite .jm-tabs-title-right ul li.active,.painite .jm-tabs-title-right ul li.firstactive,.painite .jm-tabs-title-right ul li.lastactive
+{
+	background: url(right-active.gif) no-repeat left #FFFFFF;
+}
+
+.painite .jm-tabs-title-right ul li.active H3,.painite .jm-tabs-title-right ul li.firstactive H3,.painite .jm-tabs-title-right ul li.lastactive H3
+	{
+	color: #333333;
+}
+
+/* JA Tabs bottom*/
+.painite .jm-tabs-title-bottom {
+	height: 54px !important;
+	border-left: none;
+	position: relative;
+	width: 100%;
+	margin-top: 10px;
+}
+
+.painite .jm-tabs-title-bottom ul.jm-tabs-title {
+	margin-right: 10px;
+	position: relative;
+}
+
+.painite .jm-tabs-title-bottom ul.jm-tabs-title li {
+	border: none;
+}
+
+.painite .jm-tabs-title-bottom ul.jm-tabs-title li.last {
+	background: none;
+}
+	
+.painite .jm-tabs-title-bottom ul.jm-tabs-title li h3 {
+	font-size: 100%;
+	font-weight: bold !important;
+	line-height: 46px;
+	height: 42px;
+	margin: 0;
+	padding: 0 20px;
+	border: none;
+	color: #fff;
+	border-bottom: none;
+	text-transform: uppercase;
+}
+
+.painite .jm-tabs-title-bottom ul.jm-tabs-title li.hover,
+.painite .jm-tabs-title-bottom ul.jm-tabs-title li.firsthover,
+.painite .jm-tabs-title-bottom ul.jm-tabs-title li.lasthover	{
+	
+}
+
+.painite .jm-tabs-title-bottom ul.jm-tabs-title li.active,
+.painite .jm-tabs-title-bottom ul.jm-tabs-title li.firstactive,
+.painite .jm-tabs-title-bottom ul.jm-tabs-title li.lastactive {
+}
+
+.painite .jm-tabs-title-bottom ul li.active h3,
+.painite .jm-tabs-title-bottom ul li.firstactive h3,
+.painite .jm-tabs-title-bottom ul li.lastactive h3 {}
+
+.painite .jm-tab-panels-bottom {
+	left: 0;
+}

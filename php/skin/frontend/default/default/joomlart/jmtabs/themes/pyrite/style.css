@@ -1,0 +1,111 @@
+/* JA Tabs top */
+.pyrite .jm-tabs-title-top {
+	color: #CCCCCC;
+	position: relative;
+	height: 30px;
+}
+
+.pyrite .jm-tabs-title-top ul.jm-tabs-title {
+	height: 29px;
+	bottom: -1px;
+	left: 0px;
+}
+
+.pyrite .jm-tabs-title-top ul.jm-tabs-title li {
+	margin: 0 5px 0 0;
+	background: url(tab-bg.gif) repeat-x left top #FFFFFF;
+	border: 1px solid #DDDDDD;
+	border-top: none;
+	border-bottom: 1px solid #DDDDDD;
+}
+
+.pyrite .jm-tabs-title-top ul.jm-tabs-title li h3 {
+	background: none;
+	border: none;
+	font-weight: bold !important;
+	margin: 0;
+	padding: 7px 22px;
+	letter-spacing: normal;
+	text-transform: uppercase;
+	font-size: 100%;
+}
+
+.pyrite .jm-tabs-title-top ul.jm-tabs-title li.active,
+.pyrite .jm-tabs-title-top ul.jm-tabs-title li.firstactive,
+.pyrite .jm-tabs-title-top ul.jm-tabs-title li.lastactive {
+	background: url(tab-active.gif) repeat-x left top;
+	margin-left: 0;
+	border: 1px solid #DDDDDD;
+	border-top: none;
+	border-bottom: 1px solid #FFFFFF;
+}
+
+.pyrite .jm-tabs-title-top ul li.active h3 ,
+.pyrite .jm-tabs-title-top ul li.firstactive h3,
+.pyrite .jm-tabs-title-top ul li.lastactive h3 {
+	color: #333333;
+}
+
+.pyrite .jm-tab-panels-top {
+	background: #FFFFFF;
+	border: 1px solid #DDDDDD;
+	margin-bottom: 10px;
+}
+
+/* JA Tabs bottom */
+.pyrite .jm-tabs-title-bottom {
+	color: #CCCCCC;
+	height: 30px;
+	position: relative;
+}
+
+.pyrite .jm-tab-panels-bottom {
+	background: #FFFFFF;
+	border: 1px solid #DDDDDD;
+	z-index: 1;
+}
+
+.pyrite .jm-tabs-title-bottom ul.jm-tabs-title {
+	height: 30px;
+	top: -1px !important;
+	left: 0;
+}
+
+.pyrite .jm-tabs-title-bottom ul.jm-tabs-title li {
+	margin-right: 5px;
+	background: url(tab-bg.gif) repeat-x left bottom #FFFFFF;
+	border: 1px solid #DDDDDD;
+	border-bottom: none;
+	border-top: 1px solid #DDDDDD;
+}
+
+.pyrite .jm-tabs-title-bottom ul.jm-tabs-title li h3 {
+	background: none;
+	border: none;
+	font-weight: bold !important;
+	margin: 0;
+	padding: 7px 22px;
+	letter-spacing: normal;
+	text-transform: uppercase;
+	font-size: 100%;
+}
+
+.pyrite .jm-tabs-title-bottom ul.jm-tabs-title li.active,
+.pyrite .jm-tabs-title-bottom ul.jm-tabs-title li.firstactive,
+.pyrite .jm-tabs-title-bottom ul.jm-tabs-title li.lastactive {
+	background: url(tab-active.gif) repeat-x left bottom;
+	margin-left: 0px;
+	border: 1px solid #DDDDDD;
+	border-bottom: none;
+	border-top: 1px solid #FFFFFF;
+}
+
+.pyrite .jm-tabs-title-bottom ul li.active h3,
+.pyrite .jm-tabs-title-bottom ul li.firstactive h3,
+.pyrite .jm-tabs-title-bottom ul li.lastactive h3 {
+	color: #333333;
+}
+
+.pyrite div.jm-tab-subcontent {
+	padding:10px!important;
+}

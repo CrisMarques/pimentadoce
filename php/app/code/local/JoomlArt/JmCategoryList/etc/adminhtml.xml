@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<config>
+		<acl>
+            <resources>
+                <admin>
+                    <children>
+                        <system>
+                            <children>
+                                <config>
+                                    <children>
+                                        <joomlart_jmcategorylist>
+                                            <title>JM Products List</title>
+                                        </joomlart_jmcategorylist>
+                                    </children>
+                                </config>
+                            </children>
+                        </system>
+                    </children>
+                </admin>
+            </resources>
+        </acl>
+        <translate>
+			<modules>
+				<JoomlArt_JmCategoryList>
+					<files>
+						<default>JoomlArt_JmCategoryList.csv</default>
+					</files>
+				</JoomlArt_JmCategoryList>
+			</modules>
+		</translate>
+</config>

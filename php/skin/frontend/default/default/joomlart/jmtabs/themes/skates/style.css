@@ -1,0 +1,288 @@
+/*TABS
+----------------------------------------------------------------*/
+.jm-tabs .head,
+.jm-tabs-title-top {
+	padding: 0;
+	line-height: normal;
+	color: #eee;
+}
+
+.jm-tabs-title-top {
+	padding: 0;
+	height: 40px;
+}
+
+.jm-tabs .head h4,
+.jm-tabs-title li h3 {
+	color: #eee;
+	font-family: 'PT Sans', sans-serif;
+	font-weight: 700;
+	text-transform: uppercase;
+	font-size: 120%;
+	padding: 0;
+	line-height: 40px;
+}
+
+.jm-tabs .head h4 {
+	background: url(bg-title.jpg) left top repeat;
+	float: none;
+	padding: 0 15px;
+	margin-bottom: 20px;
+}
+
+.jm-tabs {
+	border: 0;
+}
+
+.jm-tabs .tabs_content {
+	background: #fff;
+	padding: 15px;
+}
+
+/*THEME
+----------------------------------------------------------------*/
+.skates .jm-tabswrap {
+	border: 1px solid #C9C0B7;
+}
+.skates .jm-tabswrap div.jm-tab-content {	
+	width: 95%;
+}
+
+/* JA Tabs top*/
+.skates .jm-tabs-title-top {
+	position: relative;
+}
+
+.skates .jm-tabs-title-top ul.jm-tabs-title {
+	margin: 0;
+}
+
+.skates .jm-tabs-title-top ul.jm-tabs-title li {
+	background: url(bg-title.jpg) left top repeat;
+	border-left: 1px solid #000000;
+	border-right: 1px solid #333333;
+}
+
+.skates .jm-tabs-title-top ul.jm-tabs-title li:first-child { }
+
+.skates .jm-tabs-title-top ul.jm-tabs-title li h3 {
+	line-height: 40px;
+	margin: 0;
+	padding: 0 15px;
+}
+
+.skates .jm-tabs-title-top ul.jm-tabs-title li:hover {
+	background: #000;
+}
+
+.skates .jm-tabs-title-top ul.jm-tabs-title li.active {
+	background: #fff;
+	border-left: 0;
+}
+
+.skates .jm-tabs-title-top ul.jm-tabs-title li:hover h3 {
+	color: #ff5300;
+}
+
+.skates .jm-tabs-title-top ul.jm-tabs-title li.active h3 {
+	color: #000;
+}
+
+/* JA Tabs left*/
+.skates .jm-tabs-title-left {
+	position: relative;
+	float: left;	
+	height: 100%;
+	background: #F5F4ED;
+	margin-right: -1px;
+	z-index: 1;
+}
+
+.skates .jm-tabs-title-left ul.jm-tabs-title li {
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	cursor: pointer;
+	display: block;
+	background: none;
+}
+
+.skates .jm-tabs-title-left ul.jm-tabs-title li h3 {
+	margin: 0;
+	padding: 0 10px;
+	background: none;
+	font-family: 'PT Sans', sans-serif;
+	font-weight: 700;
+	text-transform: uppercase;
+	font-size: 120%;
+	line-height: 40px;
+}
+
+.skates .jm-tabs-title-left ul li.active,
+.skates .jm-tabs-title-left ul li.firstactive,
+.skates .jm-tabs-title-left ul li.lastactive {
+	background: #fff;
+}
+
+.skates .jm-tabs-title-left ul li.active H3 ,
+.skates .jm-tabs-title-left ul li.firstactive H3,
+.skates .jm-tabs-title-left ul li.lastactive H3 {
+	color: #006699;
+}
+
+.skates .jm-tab-panels-left {
+	left: 0;
+	top: 0;
+	background: url(dot.gif) repeat-y left top;
+}
+/* JA Tabs right*/
+.skates .jm-tabs-title-right {
+	position: relative;
+	float: right;	
+	height: 100%;
+	background: #F5F4ED;
+	margin-right: -1px;
+	z-index: 1;
+}
+
+.skates .jm-tabs-title-right ul.jm-tabs-title li {
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	cursor: pointer;
+	display: block;
+	background: none;
+}
+
+.skates .jm-tabs-title-right ul.jm-tabs-title li h3 {
+	margin: 0;
+	padding: 0 10px;
+	background: none;
+	font-family: 'PT Sans', sans-serif;
+	font-weight: 700;
+	text-transform: uppercase;
+	font-size: 120%;
+	line-height: 40px;
+}
+
+.skates .jm-tabs-title-right ul li.active,
+.skates .jm-tabs-title-right ul li.firstactive,
+.skates .jm-tabs-title-right ul li.lastactive {
+	background: #fff;
+}
+
+.skates .jm-tabs-title-right ul li.active H3 ,
+.skates .jm-tabs-title-right ul li.firstactive H3,
+.skates .jm-tabs-title-right ul li.lastactive H3 {
+	color: #006699;
+}
+
+.skates .jm-tab-panels-right {
+	right: 0;
+	top: 0;
+	background: url(dot.gif) repeat-y right top;
+}
+/* JA Tabs bottom*/
+.skates .jm-tabs-title-bottom {
+	width: 100%;
+	bottom: 0px;
+	height: 30px;
+	z-index: 3;
+}
+
+.skates .jm-tabs-title-bottom ul.jm-tabs-title {
+	background: url(dot.gif) repeat-x left top;
+	width: 100%;
+}
+
+.skates .jm-tabs-title-bottom ul.jm-tabs-title li {
+	background: none;
+	border: 1px solid #C9C0B7;
+	margin-left: 10px;
+}
+
+.skates .jm-tabs-title-bottom ul.jm-tabs-title li h3 {
+	margin: 0;
+	padding: 0 10px;
+	border: 1px solid #F5F4ED;
+	border-top: none;
+	background: none;
+	font-family: 'PT Sans', sans-serif;
+	font-weight: 700;
+	text-transform: uppercase;
+	font-size: 120%;
+	line-height: 40px;
+}
+
+.skates .jm-tabs-title-bottom ul.jm-tabs-title li.active,
+.skates .jm-tabs-title-bottom ul.jm-tabs-title li.firstactive,
+.skates .jm-tabs-title-bottom ul.jm-tabs-title li.lastactive {
+	background: #FFFFFF;
+	border-top: 1px solid #FFFFFF;	
+}
+
+.skates .jm-tabs-title-bottom ul li.active h3 ,
+.skates .jm-tabs-title-bottom ul li.firstactive h3,
+.skates .jm-tabs-title-bottom ul li.lastactive h3 {
+	color: #006699;
+}
+
+.jm-tabswrap .jm-tab-content .jm-tab-subcontent {
+	padding: 0;
+}
+
+.jm-tabswrap .customScrollerContent {
+	padding-top: 0 !important;
+}
+
+.jm-tabswrap .jm-tab-content ul {
+	margin: 0 -7px 0 !important;
+}
+
+.jm-tabswrap .jm-tab-content li {
+	padding: 0;
+}
+
+.jm-tabswrap .jm-tab-content a.minimal-price-link .label {
+	color: #666;
+}
+
+.jm-tabswrap .price-from .price-label,
+.jm-tabswrap .price-to .price-label {
+	color: #666;
+}
+
+.jm-tabswrap .jm-tab-content ul.add-to-links {
+	margin: 0 !important;
+}
+
+.jm-tabswrap .jm-tab-content .add-to-links li {
+	background-image: url(bullet_plus_02.gif);
+	padding-left: 10px;
+}
+
+.jm-tabswrap .jm-tab-content .add-to-links li a {
+	color: #999;
+}
+
+.jm-tabswrap .jm-tab-content .add-to-links li a:hover {
+	color: #ff5300;
+}
+
+.jm-tabswrap .jm-tab-content li .item-slider .product-thumb {
+	display: block;
+	line-height: 0;
+	margin-bottom: 15px;
+}
+
+.jm-tabswrap .jm-tab-content .price {
+	color: #222;
+}
+
+.jm-tabswrap .jm-tab-content .products-grid .product-image {
+	background-image: url(bg-img-grey.gif);
+}
+
+.jm-tabswrap .jm-tab-content .products-grid .product-image:hover {
+	background-image: url(bg-img-grey-over.gif);
+}

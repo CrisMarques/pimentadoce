@@ -1,0 +1,76 @@
+<?xml version="1.0"?>  
+<config>  
+	<modules>  
+		<Joom_Jmtabs>  
+			<version>0.1.0</version>  
+		</Joom_Jmtabs>  
+	</modules>  	
+	<global>  
+		<models>
+            <joomlart_jmtabs>
+                <class>JoomlArt_Jmtabs_Model</class>
+            </joomlart_jmtabs>           
+        </models>               
+        	
+		<blocks>  
+			<joomlart_jmtabs>  
+				<class>JoomlArt_Jmtabs_Block</class>  
+			</joomlart_jmtabs>  
+		</blocks> 		
+		<models>  
+			<joomlart_jmtabs>  
+				<class>JoomlArt_Jmtabs_Model</class>  
+			</joomlart_jmtabs>  
+		</models>
+		<helpers>  
+			<joomlart_jmtabs>  
+				<class>JoomlArt_Jmtabs_Helper</class>  
+			</joomlart_jmtabs>  
+		</helpers>	
+	</global>  
+	
+	<adminhtml>
+		<menu>
+            <joomlart>
+                <title>Joomlart</title>
+                <sort_order>100</sort_order>
+                <children>
+                    <jmtabs>
+                        <title>JM Tabs</title>
+                        <sort_order>6</sort_order>
+                        <action>adminhtml/system_config/edit/section/joomlart_jmtabs</action>
+                    </jmtabs>
+                </children>
+            </joomlart>
+        </menu>
+        <acl>
+            <resources>
+                <admin>
+                    <children>
+                        <system>
+                            <children>
+                                <config>
+                                    <children>
+                                        <joomlart_jmtabs>
+                                            <title>JM Tabs</title>
+                                        </joomlart_jmtabs>
+                                    </children>
+                                </config>
+                            </children>
+                        </system>
+                    </children>
+                </admin>
+            </resources>
+        </acl>
+        
+    </adminhtml>	
+	<frontend>
+		<layout>
+			<updates>
+				<joomlart_jmtabs module="joomlart_jmtabs">
+					<file>jmtabs.xml</file>
+				</joomlart_jmtabs>
+			</updates>
+		</layout>
+	</frontend>			
+</config>  

@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<layout version="0.1.0">
+	<default>
+        <reference name="head">	
+        	<action method="addCss"><stylesheet>joomlart/jmcategorylist/css/jm.categorylist.css</stylesheet></action>
+        </reference>
+    </default>     
+
+<!--    <default>
+        <reference name="content">		
+			<block type="joomlart_jmcategorylist/list" name="jmcategorylist" >
+				<action method="set">					
+					<show>1</show>
+					<title>JM categorylist xml</title>					
+					<mode>latest</mode>
+					<showcat>0</showcat>
+					<link_cat>0</link_cat>
+					<catsid>4,16,17,18</catsid>
+					<perrow>3</perrow>
+					<leading_product>2</leading_product>
+					<intro_product>5</intro_product>
+					<maxchar>0</maxchar>
+					<template>joomlart/jmcategorylist/list.phtml</template>
+				</action>								
+			</block>
+        </reference>
+    </default>-->
+    
+</layout>

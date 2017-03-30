@@ -1,0 +1,222 @@
+.oganis .jm-tabswrap {
+	border: 1px solid #CCCCCC;
+}
+
+.oganis .jm-tabswrap div.jm-tab-content {
+	width: 95%;
+}
+
+.oganis .container {
+	height: auto;
+}
+
+/* JA Tabs top*/
+.oganis .jm-tabs-title-top {
+	background: url(shadow-right-col.gif) no-repeat right bottom;
+	height: 46px;
+	border-left: none;
+	position: relative;
+	width: 100%;
+}
+
+.oganis .jm-tabs-title-top ul.jm-tabs-title {
+	background: url(grad1.gif) repeat-x left top;
+	margin-right: 10px;
+	position: relative;
+}
+
+.oganis .jm-tabs-title-top ul.jm-tabs-title li {
+	background: url(v-sep.gif) no-repeat right 1px;
+	border: none;
+}
+
+.oganis .jm-tabs-title-top ul.jm-tabs-title li.last {
+	background: none;
+}
+
+.oganis .jm-tabs-title-top ul.jm-tabs-title li h3 {
+	font-size: 100%;
+	font-weight: bold !important;
+	line-height: 38px;
+	height: 42px;
+	margin: 0;
+	padding: 0 20px;
+	border: none;
+	color: #fff;
+	border-bottom: none;
+	text-transform: uppercase;
+	float: left;
+}
+
+.oganis .jm-tabs-title-top ul.jm-tabs-title li h3 span {
+
+}
+
+.oganis .jm-tabs-title-top ul.jm-tabs-title li.hover,
+.oganis .jm-tabs-title-top ul.jm-tabs-title li.firsthover,
+.oganis .jm-tabs-title-top ul.jm-tabs-title li.lasthover
+	{
+	
+}
+
+.oganis .jm-tabs-title-top ul.jm-tabs-title li.active,
+.oganis .jm-tabs-title-top ul.jm-tabs-title li.firstactive,
+.oganis .jm-tabs-title-top ul.jm-tabs-title li.lastactive {
+	border-bottom: none;
+}
+
+.oganis .jm-tabs-title-top ul li.active h3,
+.oganis .jm-tabs-title-top ul li.firstactive h3,
+.oganis .jm-tabs-title-top ul li.lastactive h3 	{
+	background: url(h-sep.gif) no-repeat center bottom;
+}
+
+.jm-tabswrap.oganis div.jm-tab-subcontent {
+	padding: 10px 30px 0 20px !important;
+	
+}
+
+.oganis div.jm-tab-subcontent .subcontent-inner1 {
+	border: 1px solid #101010;
+}
+
+.oganis div.jm-tab-subcontent .subcontent-inner2 {
+	border: 1px solid #413838;
+	background: #322B2B;
+}
+
+/* JA Tabs left*/
+.oganis .jm-tabs-title-left {
+	position: relative;
+	float: left;
+	height: 100%;
+	background: url(17pxblank.gif) repeat-y right #F7F7F7;
+}
+
+.oganis .jm-tabs-title-left ul.jm-tabs-title li {
+	height: 100%;
+	margin: 0 0 0 1px;
+	padding: 0;
+	cursor: pointer;
+	display: block;
+	background: none;
+}
+
+.oganis .jm-tabs-title-left ul.jm-tabs-title li h3 {
+	font-size: 11px;
+	font-weight: bold !important;
+	line-height: 30px;
+	margin: 0;
+	padding: 0 10px;
+	background: none;
+	font-family: "Lucida Grande", Arial, sans-serif;
+	letter-spacing: normal;
+}
+
+.oganis .jm-tabs-title-left ul li.active,.oganis .jm-tabs-title-left ul li.firstactive,.oganis .jm-tabs-title-left ul li.lastactive
+	{
+	background: url(left-active.gif) no-repeat right #FFFFFF;
+}
+
+.oganis .jm-tabs-title-left ul li.active H3,.oganis .jm-tabs-title-left ul li.firstactive H3,.oganis .jm-tabs-title-left ul li.lastactive H3
+{
+	color: #333333;
+}
+
+/* JA Tabs right*/
+.oganis .jm-tab-panels-right .jm-tab-subcontent {
+	padding-left: 15px !important;
+}
+
+.oganis .jm-tabs-title-right {
+	background: url(17pxblank2.gif) repeat-y left #F7F7F7;
+}
+
+.oganis .jm-tabs-title-right ul.jm-tabs-title li {
+	height: 100%;
+	margin: 0 0 0 1px;
+	padding: 0;
+	cursor: pointer;
+	display: block;
+	background: none;
+}
+
+.oganis .jm-tabs-title-right ul.jm-tabs-title li h3 {
+	font-size: 11px;
+	font-weight: bold !important;
+	line-height: 30px;
+	margin: 0;
+	padding: 0 10px 0 25px;
+	background: none;
+	font-family: "Lucida Grande", Arial, sans-serif;
+	letter-spacing: normal;
+}
+
+.oganis .jm-tabs-title-right ul li.active,.oganis .jm-tabs-title-right ul li.firstactive,.oganis .jm-tabs-title-right ul li.lastactive
+	{
+	background: url(right-active.gif) no-repeat left #FFFFFF;
+}
+
+.oganis .jm-tabs-title-right ul li.active H3,.oganis .jm-tabs-title-right ul li.firstactive H3,.oganis .jm-tabs-title-right ul li.lastactive H3
+	{
+	color: #333333;
+}
+
+/* JA Tabs bottom*/
+.oganis .jm-tabs-title-bottom {
+	background: url(shadow-right-col.gif) no-repeat right 6px;
+	height: 54px !important;
+	border-left: none;
+	position: relative;
+	width: 100%;
+	margin-top: 10px;
+}
+
+.oganis .jm-tabs-title-bottom ul.jm-tabs-title {
+	background: url(grad1.gif) repeat-x left 6px;
+	margin-right: 10px;
+	position: relative;
+}
+
+.oganis .jm-tabs-title-bottom ul.jm-tabs-title li {
+	background: url(v-sep.gif) no-repeat right 7px;
+	border: none;
+}
+
+.oganis .jm-tabs-title-bottom ul.jm-tabs-title li.last {
+	background: none;
+}
+	
+.oganis .jm-tabs-title-bottom ul.jm-tabs-title li h3 {
+	font-size: 100%;
+	font-weight: bold !important;
+	line-height: 46px;
+	height: 42px;
+	margin: 0;
+	padding: 0 20px;
+	border: none;
+	color: #fff;
+	border-bottom: none;
+	text-transform: uppercase;
+}
+
+.oganis .jm-tabs-title-bottom ul.jm-tabs-title li.hover,
+.oganis .jm-tabs-title-bottom ul.jm-tabs-title li.firsthover,
+.oganis .jm-tabs-title-bottom ul.jm-tabs-title li.lasthover	{
+	
+}
+
+.oganis .jm-tabs-title-bottom ul.jm-tabs-title li.active,
+.oganis .jm-tabs-title-bottom ul.jm-tabs-title li.firstactive,
+.oganis .jm-tabs-title-bottom ul.jm-tabs-title li.lastactive {
+}
+
+.oganis .jm-tabs-title-bottom ul li.active h3,
+.oganis .jm-tabs-title-bottom ul li.firstactive h3,
+.oganis .jm-tabs-title-bottom ul li.lastactive h3 {
+	background: url(hb-sep.gif) no-repeat center top;
+}
+
+.oganis .jm-tab-panels-bottom {
+	left: 0;
+}

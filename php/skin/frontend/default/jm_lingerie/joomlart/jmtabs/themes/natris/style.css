@@ -1,0 +1,224 @@
+.natris .jm-tab-content ul {
+	margin-bottom: 10px !important;	
+}
+
+.natris .jm-tab-content li {
+	padding: 0;	
+	margin-left: 10px;
+}
+
+.natris .jm-tab-content li:first-child {
+	margin-left: 0;	
+}
+
+.natris .jm-tab-content ul.jmzin-links li:first-child {
+	margin-left: 10px;	
+}
+
+.natris .jm_item_desc .price,
+.natris .jm_item_desc a {
+	display: inline-block;
+	padding: 0 5px;
+	color: #fff;
+	font-size: 90%;
+	line-height: 15px;
+}
+/* JA Tabs top*/
+.natris .jm-tabs-title-top {
+	height: 38px;
+	position: relative;
+	background: url(grad1.gif) repeat-x top;
+	width:100%;
+}
+
+.natris .jm-tabs-title-top ul.jm-tabs-title li {
+	border-left: 1px solid #f0f0f0;
+	background: none;
+}
+
+.natris .jm-tabs-title-top ul.jm-tabs-title li:first-child {
+	border-left: 0;
+}
+
+.natris .jm-tabs-title-top ul.jm-tabs-title li h3 {
+	font-size: 11px;
+	font-weight: bold !important;
+	margin: 0;
+	background: none;
+	letter-spacing: normal;
+}
+
+.natris .jm-tabs-title-top ul.jm-tabs-title li h3 span {
+	display: block;
+	padding: 10px 15px;
+	line-height: 18px;
+}
+
+.natris .jm-tabs-title-top ul.jm-tabs-title li.hover,
+.natris .jm-tabs-title-top ul.jm-tabs-title li.firsthover,
+.natris .jm-tabs-title-top ul.jm-tabs-title li.lasthover {
+}
+
+.natris .jm-tabs-title-top ul.jm-tabs-title li.active,
+.natris .jm-tabs-title-top ul.jm-tabs-title li.firstactive,
+.natris .jm-tabs-title-top ul.jm-tabs-title li.lastactive {
+	background: #fff;
+}
+
+.natris .jm-tabs-title-top ul li.active h3 ,
+.natris .jm-tabs-title-top ul li.firstactive h3,
+.natris .jm-tabs-title-top ul li.lastactive h3 {
+	color: #2472bf;
+}
+
+/* JA Tabs left*/
+.natris .jm-tabs-title-left {
+	position: relative;
+	float: left;	
+	height: 100%;
+	background: url(17pxblank.gif) repeat-y right #F5F4ED;
+}
+
+.natris .jm-tabs-title-left ul.jm-tabs-title li {
+	height: 100%;
+	margin: 0 0 0 1px;
+	padding: 0;
+	cursor: pointer;
+	display: block;
+	background: none;
+}
+
+.natris .jm-tabs-title-left ul.jm-tabs-title li h3 {
+	font-size: 11px;
+	font-weight: bold !important;
+	line-height: 30px;
+	margin: 0;
+	padding: 0 10px;
+	background: none;
+	font-family: "Lucida Grande", Arial, sans-serif;
+	letter-spacing: normal;
+}
+
+.natris .jm-tabs-title-left ul li.active,
+.natris .jm-tabs-title-left ul li.firstactive,
+.natris .jm-tabs-title-left ul li.lastactive {
+	background: url(left-active.gif) no-repeat right #fff;
+}
+
+.natris .jm-tabs-title-left ul li.active H3 ,
+.natris .jm-tabs-title-left ul li.firstactive H3,
+.natris .jm-tabs-title-left ul li.lastactive H3 {
+	color: #2472bf;
+}
+
+/* JA Tabs top*/
+.jm-tab-panels-top {
+	position: static;
+	clear: both;
+	overflow: hidden;
+	bottom: auto;
+	left: auto;
+	width: auto;
+	z-index: 1;
+	height: auto;
+}
+
+/* JA Tabs right*/
+.natris .jm-tab-panels-right .jm-tab-subcontent {
+	padding-left: 15px !important;
+}
+
+.natris .jm-tabs-title-right {
+	background: url(17pxblank2.gif) repeat-y left #F5F4ED;
+}
+
+.natris .jm-tabs-title-right ul.jm-tabs-title li {
+	height: 100%;
+	margin: 0 0 0 1px;
+	padding: 0;
+	cursor: pointer;
+	display: block;
+	background: none;
+}
+
+.natris .jm-tabs-title-right ul.jm-tabs-title li h3 {
+	font-size: 11px;
+	font-weight: bold !important;
+	line-height: 30px;
+	margin: 0;
+	padding: 0 10px 0 25px;
+	background: none;
+	font-family: "Lucida Grande", Arial, sans-serif;
+	letter-spacing: normal;
+}
+
+.natris .jm-tabs-title-right ul li.active,
+.natris .jm-tabs-title-right ul li.firstactive,
+.natris .jm-tabs-title-right ul li.lastactive {
+	background: url(right-active.gif) no-repeat left #fff;
+}
+
+.natris .jm-tabs-title-right ul li.active H3 ,
+.natris .jm-tabs-title-right ul li.firstactive H3,
+.natris .jm-tabs-title-right ul li.lastactive H3 {
+	color: #2472bf;
+}
+/* JA Tabs bottom*/
+.natris .jm-tabs-title-bottom {
+	width:100%;
+	bottom:0px;
+	height: 30px;
+	border-top: 1px solid #C9C0B7;
+	background: url(grad1.gif) repeat-x top;
+	z-index: 3;
+}
+
+.natris .jm-tabs-title-bottom ul.jm-tabs-title li {
+	background: none;
+	border: 1px solid #C9C0B7;
+}
+
+.natris .jm-tabs-title-bottom ul.jm-tabs-title li h3 {
+	font-size: 11px;
+	font-weight: bold !important;
+	line-height: 20px;
+	margin: 0;
+	padding: 0 10px;
+	border: 1px solid #F5F4ED;
+	border-top: none;
+	background: none;
+	letter-spacing: normal;
+	font-family: "Lucida Grande", Arial, sans-serif;
+}
+
+.natris .jm-tabs-title-bottom ul.jm-tabs-title li.active,
+.natris .jm-tabs-title-bottom ul.jm-tabs-title li.firstactive,
+.natris .jm-tabs-title-bottom ul.jm-tabs-title li.lastactive {
+	background: #fff;
+	border-top: 1px solid #fff;	
+}
+
+.natris .jm-tabs-title-bottom ul li.active h3 ,
+.natris .jm-tabs-title-bottom ul li.firstactive h3,
+.natris .jm-tabs-title-bottom ul li.lastactive h3 {
+	color: #2472bf;
+}
+
+.natris .jm-tab-content .jm-tab-subcontent {
+	padding: 0;
+}
+
+/*----- jmzin-links -------*/
+.natris ul.jmzin-links li {
+	padding-left: 10px;
+}
+
+.natris h2.jmzin-title, .natris h4.jmzin-title {
+	font-size: 100%;
+}
+
+.natris h2 {
+	margin: 0;	
+}
+
+

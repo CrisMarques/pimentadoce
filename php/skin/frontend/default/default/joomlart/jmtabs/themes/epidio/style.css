@@ -1,0 +1,210 @@
+.jm-tabs {
+	border: 1px solid #1D1D1D;
+}
+
+.jm-tabswrap .jm-tab-content .jm-tab-subcontent {
+	padding: 0;
+	margin: 0 !important;
+}
+
+.epidio .jm-tabswrap {
+	border: 1px solid #C9C0B7;
+}
+.epidio .jm-tabswrap div.jm-tab-content {	
+	width: 95%;
+}
+
+.epidio div.tabs_content {
+	background: #171717;
+	width: 100% !important;
+}
+/* JA Tabs top*/
+.epidio .jm-tabs-title-top {
+	height: 32px !important;
+	position: relative;
+	width: 100%;
+	border-bottom: 1px solid #050505;
+}
+
+.epidio .jm-tabs-title-top ul.jm-tabs-title {
+	display: block;
+	padding-left: 15px;
+	height: 32px;
+	line-height: 32px;
+	color: #FFFFFF;
+}
+
+.epidio .jm-tabs-title-top ul.jm-tabs-title li {
+	background: none;
+	line-height: 32px;
+	height: 32px;
+}
+
+.epidio .jm-tabs-title-top ul.jm-tabs-title li h3 {
+	font-size: 92%;
+	text-transform: uppercase;
+	line-height: 32px;
+	height: 32px;
+	margin: 0;
+	padding: 0 10px;
+	background: none;
+	float: left;
+}
+
+.epidio .jm-tabs-title-top ul.jm-tabs-title li h3 a {
+	text-decoration: none;
+	outline: none;
+}
+
+.epidio .jm-tabs-title-top ul.jm-tabs-title li.hover,
+.epidio .jm-tabs-title-top ul.jm-tabs-title li.firsthover,
+.epidio .jm-tabs-title-top ul.jm-tabs-title li.lasthover {
+}
+
+.epidio .jm-tabs-title-top ul.jm-tabs-title li.active,
+.epidio .jm-tabs-title-top ul.jm-tabs-title li.firstactive,
+.epidio .jm-tabs-title-top ul.jm-tabs-title li.lastactive {
+	background: url(tabs-active.jpg) repeat-x;
+	border-left: 1px solid #050505;
+	border-right: 1px solid #050505;
+	border-bottom: 1px solid #171717;
+}
+
+.epidio .jm-tabs-title-top ul li.active h3 ,
+.epidio .jm-tabs-title-top ul li.firstactive h3,
+.epidio .jm-tabs-title-top ul li.lastactive h3 {
+	color: #B37C20;
+}
+
+/* JA Tabs left*/
+.epidio .jm-tabs-title-left {
+	position: relative;
+	float: left;	
+	height: 100%;
+	background: url(box_head_hilite_90.jpg) no-repeat left top;
+	width: 32px;
+}
+
+.epidio .jm-tabs-title-left ul.jm-tabs-title li {
+	height: 100%;
+	margin: 0 0 0 1px;
+	padding: 0;
+	cursor: pointer;
+	display: block;
+	background: none;
+}
+
+.epidio .jm-tabs-title-left ul.jm-tabs-title li h3 {
+	font-size: 11px;
+	font-weight: bold !important;
+	line-height: 30px;
+	margin: 0;
+	padding: 0 10px;
+	background: none;
+	font-family: "Lucida Grande", Arial, sans-serif;
+	letter-spacing: normal;
+}
+
+.epidio .jm-tabs-title-left ul li.active,
+.epidio .jm-tabs-title-left ul li.firstactive,
+.epidio .jm-tabs-title-left ul li.lastactive {
+	background: url(left-active.gif) no-repeat right #FFFFFF;
+}
+
+.epidio .jm-tabs-title-left ul li.active H3 ,
+.epidio .jm-tabs-title-left ul li.firstactive H3,
+.epidio .jm-tabs-title-left ul li.lastactive H3 {
+	color: #B37C20;
+}
+
+
+/* JA Tabs right*/
+.epidio .jm-tab-panels-right .jm-tab-subcontent {
+	padding-left: 15px !important;
+}
+
+.epidio .jm-tabs-title-right {
+	background: url(17pxblank2.gif) repeat-y left #F5F4ED;
+}
+
+.epidio .jm-tabs-title-right ul.jm-tabs-title li {
+	height: 100%;
+	margin: 0 0 0 1px;
+	padding: 0;
+	cursor: pointer;
+	display: block;
+	background: none;
+}
+
+.epidio .jm-tabs-title-right ul.jm-tabs-title li h3 {
+	font-size: 11px;
+	font-weight: bold !important;
+	line-height: 30px;
+	margin: 0;
+	padding: 0 10px 0 25px;
+	background: none;
+	font-family: "Lucida Grande", Arial, sans-serif;
+	letter-spacing: normal;
+}
+
+.epidio .jm-tabs-title-right ul li.active,
+.epidio .jm-tabs-title-right ul li.firstactive,
+.epidio .jm-tabs-title-right ul li.lastactive {
+	background: url(right-active.gif) no-repeat left #FFFFFF;
+}
+
+.epidio .jm-tabs-title-right ul li.active H3 ,
+.epidio .jm-tabs-title-right ul li.firstactive H3,
+.epidio .jm-tabs-title-right ul li.lastactive H3 {
+	color: #B37C20;
+}
+
+/* JA Tabs bottom*/
+
+.epidio .jm-tabs-title-bottom {
+	height: 32px !important;
+	position: relative;
+	background: url(box_head_hilite.jpg) no-repeat left;
+	width: 100%;
+	border-top: 1px solid #050505;
+}
+
+.epidio .jm-tabs-title-bottom ul.jm-tabs-title {
+	display: block;
+	padding-left: 15px;
+	height: 32px;
+	line-height: 32px;
+}
+
+.epidio .jm-tabs-title-bottom ul.jm-tabs-title li {
+	background: none;
+	line-height: 32px;
+	height: 32px;
+}
+
+.epidio .jm-tabs-title-bottom ul.jm-tabs-title li h3 {
+	font-size: 92%;
+	text-transform: uppercase;
+	line-height: 32px;
+	height: 32px;
+	margin: 0;
+	padding: 0 10px;
+	background: none;
+	color: #FFFFFF;
+}
+
+.epidio .jm-tabs-title-bottom ul.jm-tabs-title li.active,
+.epidio .jm-tabs-title-bottom ul.jm-tabs-title li.firstactive,
+.epidio .jm-tabs-title-bottom ul.jm-tabs-title li.lastactive {
+	background: url(tabs-active-bt.jpg) repeat-x;
+	border-left: 1px solid #050505;
+	border-right: 1px solid #050505;
+	border-top: 1px solid #171717;
+	margin-top: -1px;
+}
+
+.epidio .jm-tabs-title-bottom ul li.active h3 ,
+.epidio .jm-tabs-title-bottom ul li.firstactive h3,
+.epidio .jm-tabs-title-bottom ul li.lastactive h3 {
+	color: #B37C20;
+}

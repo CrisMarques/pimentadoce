@@ -1,0 +1,24 @@
+<?php if(Mage::helper('jmquickview')->get('show')) { ?>
+
+<?php 
+       if(Mage::getStoreConfig("web/secure/use_in_adminhtml")){
+              $baseurl = Mage::getStoreConfig("web/secure/base_url");
+		  }else{
+              $baseurl = Mage::getBaseUrl();  
+	    }
+?>
+<script type="text/javascript">
+  var baseurl = "<?php echo $baseurl; ?>"
+</script>
+
+<?php if(!defined('JM_ADD_JQUERY')): ?>
+	<script type="text/javascript" src="<?php echo $this->getSkinUrl('js/jquery/jquery.js') ?>"></script>
+	<?php define('JM_ADD_JQUERY', true); ?>
+<?php endif; ?>
+<?php if(!defined('JM_ADD_COLORBOX')): ?>
+	<script type="text/javascript" src="<?php echo $this->getSkinUrl('js/jquery/plugins/colorbox/jquery.colorbox.js') ?>"></script>
+	<?php define('JM_ADD_COLORBOX', true); ?>
+<?php endif; ?>
+<script type="text/javascript" src="<?php echo $this->getSkinUrl('joomlart/jmquickview/js/jmquickview.js') ?>"></script>
+
+<?php } ?>

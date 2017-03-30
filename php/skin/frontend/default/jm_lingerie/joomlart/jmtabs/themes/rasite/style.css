@@ -1,0 +1,177 @@
+.rasite.jm-tabswrap {
+	border: 1px solid #E0E0E0;
+	background: #F5F5F5;
+}
+.rasite.jm-tabswrap div.jm-tab-content {	
+	width: 95%;
+}
+
+.rasite .container {
+	padding: 15px;
+}
+/* JA Tabs top*/
+.rasite .jm-tabs-title-top {
+	height: 40px;
+	border: 1px solid #E5E5E5;
+	position: relative;
+	width: 100%;
+	background: #FFF;
+}
+
+.rasite .jm-tabs-title-top ul.jm-tabs-title {
+	padding-top: 5px;
+	margin-left: 15px;
+}
+
+.rasite .jm-tabs-title-top ul.jm-tabs-title li {
+	background: none;
+	border: none;
+}
+
+.rasite .jm-tabs-title-top ul.jm-tabs-title li h3 {
+	font-size: 11px;
+	font-weight: bold !important;
+	line-height: 35px;
+	margin: 0;
+	padding: 0 10px;
+	background: none;
+	text-transform: uppercase;
+	color: #858585;
+}
+
+.rasite .jm-tabs-title-top ul.jm-tabs-title li.hover,
+.rasite .jm-tabs-title-top ul.jm-tabs-title li.firsthover,
+.rasite .jm-tabs-title-top ul.jm-tabs-title li.lasthover {
+}
+
+.rasite .jm-tabs-title-top ul.jm-tabs-title li.active,
+.rasite .jm-tabs-title-top ul.jm-tabs-title li.firstactive,
+.rasite .jm-tabs-title-top ul.jm-tabs-title li.lastactive {
+	background: #f5f5f5;
+	border: 1px solid #E5E5E5;
+	border-bottom: 1px solid #F5F5F5;
+}
+
+.rasite .jm-tabs-title-top ul li.active h3 ,
+.rasite .jm-tabs-title-top ul li.firstactive h3,
+.rasite .jm-tabs-title-top ul li.lastactive h3 {
+}
+
+/* JA Tabs left*/
+.rasite .jm-tabs-title-left {
+	position: relative;
+	float: left;	
+	height: 100%;
+	background: url(17pxblank.gif) repeat-y right #F5F4ED;
+}
+
+.rasite .jm-tabs-title-left ul.jm-tabs-title li {
+	height: 100%;
+	margin: 0 0 0 1px;
+	padding: 0;
+	cursor: pointer;
+	display: block;
+	background: none;
+}
+
+.rasite .jm-tabs-title-left ul.jm-tabs-title li h3 {
+	font-size: 11px;
+	font-weight: bold !important;
+	line-height: 40px;
+	margin: 0;
+	padding: 0 10px;
+	background: none;
+	font-family: "Lucida Grande", Arial, sans-serif;
+	letter-spacing: normal;
+}
+
+.rasite .jm-tabs-title-left ul li.active,
+.rasite .jm-tabs-title-left ul li.firstactive,
+.rasite .jm-tabs-title-left ul li.lastactive {
+	background: url(left-active.gif) no-repeat right #FFFFFF;
+}
+
+.rasite .jm-tabs-title-left ul li.active H3 ,
+.rasite .jm-tabs-title-left ul li.firstactive H3,
+.rasite .jm-tabs-title-left ul li.lastactive h3 {
+}
+
+
+/* JA Tabs right*/
+.rasite .jm-tab-panels-right .jm-tab-subcontent {
+	padding-left: 15px !important;
+}
+
+.rasite .jm-tabs-title-right {
+	background: url(17pxblank2.gif) repeat-y left #F5F4ED;
+}
+
+.rasite .jm-tabs-title-right ul.jm-tabs-title li {
+	height: 100%;
+	margin: 0 0 0 1px;
+	padding: 0;
+	cursor: pointer;
+	display: block;
+	background: none;
+}
+
+.rasite .jm-tabs-title-right ul.jm-tabs-title li h3 {
+	font-size: 11px;
+	font-weight: bold !important;
+	line-height: 40px;
+	margin: 0;
+	padding: 0 10px 0 25px;
+	background: none;
+	font-family: "Lucida Grande", Arial, sans-serif;
+	letter-spacing: normal;
+}
+
+.rasite .jm-tabs-title-right ul li.active,
+.rasite .jm-tabs-title-right ul li.firstactive,
+.rasite .jm-tabs-title-right ul li.lastactive {
+	background: url(right-active.gif) no-repeat left #FFFFFF;
+}
+
+.rasite .jm-tabs-title-right ul li.active H3 ,
+.rasite .jm-tabs-title-right ul li.firstactive H3,
+.rasite .jm-tabs-title-right ul li.lastactive h3 {
+}
+/* JA Tabs bottom*/
+.rasite .jm-tabs-title-bottom {
+	width:100%;
+	bottom:0px;
+	height: 40px;
+	border-top: 1px solid #E0E0E0;
+	background: url(grad1.gif) repeat-x top;
+	z-index: 3;
+}
+
+.rasite .jm-tabs-title-bottom ul.jm-tabs-title li {
+	background: none;
+	border: 1px solid #E0E0E0;
+}
+
+.rasite .jm-tabs-title-bottom ul.jm-tabs-title li h3 {
+	font-size: 11px;
+	font-weight: bold !important;
+	line-height: 20px;
+	margin: 0;
+	padding: 0 10px;
+	border: 1px solid #F5F4ED;
+	border-top: none;
+	background: none;
+	letter-spacing: normal;
+	font-family: "Lucida Grande", Arial, sans-serif;
+}
+
+.rasite .jm-tabs-title-bottom ul.jm-tabs-title li.active,
+.rasite .jm-tabs-title-bottom ul.jm-tabs-title li.firstactive,
+.rasite .jm-tabs-title-bottom ul.jm-tabs-title li.lastactive {
+	background: #FFFFFF;
+	border-top: 1px solid #FFFFFF;	
+}
+
+.rasite .jm-tabs-title-bottom ul li.active h3 ,
+.rasite .jm-tabs-title-bottom ul li.firstactive h3,
+.rasite .jm-tabs-title-bottom ul li.lastactive h3 {
+}

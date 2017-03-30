@@ -1,0 +1,58 @@
+<?xml version="1.0"?>
+<layout version="0.1.0">
+    <default>
+		<reference name="head">	
+        	<action method="addCss"><stylesheet>joomlart/jmtabs/css/jm.tabs.css</stylesheet></action>
+        </reference>
+        <reference name="content">        	
+			<block type="joomlart_jmtabs/core" name="jmtabs">
+				<!--<action method="set">
+					<show>1</show>
+					<title>JM Tabssss</title>
+					<style>pyrite</style>
+					<height>auto</height>
+					<width>100</width>
+					<position>top</position>
+					<animation>fadeIn</animation>
+					<event>click</event>
+					<duration>1000</duration>
+					<skipanim>false</skipanim>
+				</action>-->
+				<action method="addTabs_staticblock">
+					<title>Tab 1</title>
+					<identifier>footer_links</identifier>
+				</action>
+                <action method="addTabs_staticblock">
+                    <title>header_links</title>
+                    <identifier>header_links</identifier>
+                </action>
+                <action method="addTabs_staticblock">
+                    <title>electronics-landing</title>
+                    <identifier>electronics-landing</identifier>
+                </action>                
+                <action method="addTabs_staticblock">
+                    <title>cellphones-landing</title>
+                    <identifier>cellphones-landing</identifier>
+                </action>
+				<!--<action method="addTabs_block">					
+					<title>jmproducts</title>
+					<block>joomlart_jmproducts/list</block>
+					<template>joomlart/jmproducts/list.phtml</template>
+					<alias>tab1-jmproducts</alias>
+				</action>	
+				<action method="addTabs_block">					
+					<title>jmproductsspotlight</title>
+					<block>joomlart_jmproductsspotlight/list</block>
+					<template>joomlart/jmproductsspotlight/list.phtml</template>
+					<alias>tab1-jmproductsspotlight</alias>
+				</action>
+				<action method="addTabs_block">					
+					<title>jmcategorylist</title>
+					<block>joomlart_jmcategorylist/list</block>
+					<template>joomlart/jmcategorylist/list.phtml</template>
+					<alias>tab1-jmcategorylist</alias>
+				</action>-->
+			</block>
+        </reference>
+    </default>
+</layout>

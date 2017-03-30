@@ -1,0 +1,187 @@
+/* JA Tabs top */
+.kulanite .jm-tabs-title-top {
+	height: 40px;
+	position: relative;
+	background: url(grad2.gif) repeat-x top;
+	padding-bottom:20px;
+}
+
+.kulanite .jm-tabs-title-top ul.jm-tabs-title {
+	top: 0;
+	left: 10px;
+}
+
+.kulanite .jm-tabs-title-top ul.jm-tabs-title li {
+	background:url(tab-sep.gif) no-repeat 100% 7px;
+	height: 40px;
+}
+
+.kulanite .jm-tabs-title-top ul.jm-tabs-title li h3 {	
+	font-weight: bold !important;
+	margin: 0;
+	padding: 6px 10px 0 10px;
+	border-top: none;
+	letter-spacing: normal;
+	background: none;
+	font-size: 100%;
+}
+
+.kulanite .jm-tabs-title-top ul.jm-tabs-title li.active,
+.kulanite .jm-tabs-title-top ul.jm-tabs-title li.firstactive,
+.kulanite .jm-tabs-title-top ul.jm-tabs-title li.lastactive {
+	background: none;
+	font-size: 125%;
+	margin-left: -2px;
+}
+
+.kulanite .jm-tabs-title-top ul li.active h3 ,
+.kulanite .jm-tabs-title-top ul li.firstactive h3,
+.kulanite .jm-tabs-title-top ul li.lastactive h3 {
+	color: #0FA9CC;
+	padding: 0 0 0 10px;
+	background: url(tab-active2.gif) no-repeat left bottom;
+}
+
+.kulanite .jm-tabs-title-top ul li.active h3 span,
+.kulanite .jm-tabs-title-top ul li.firstactive h3 span,
+.kulanite .jm-tabs-title-top ul li.lastactive h3 span {
+	padding: 8px 15px 15px 5px;
+	background: url(tab-active2.gif) no-repeat right bottom;
+	display: block;
+}
+
+/* JA Tabs left */
+.kulanite .jm-tabs-title-left {
+	background: url(17pxblank.gif) repeat-y right;
+}
+
+.kulanite .jm-tabs-title-left ul.jm-tabs-title li {
+	margin: 0;
+	background: none;
+}
+
+.kulanite .jm-tabs-title-left ul.jm-tabs-title li h3 {	
+	font-weight: bold !important;
+	margin: 0;
+	padding: 0;
+	padding-left:15px;
+	line-height:30px;
+	letter-spacing: normal;
+	font-size: 100%;
+}
+
+.kulanite .jm-tabs-title-left ul li.active,
+.kulanite .jm-tabs-title-left ul li.firstactive,
+.kulanite .jm-tabs-title-left ul li.lastactive {
+	background: url(left-active.gif) no-repeat right;
+	font-size: 125%;
+}
+
+.kulanite .jm-tabs-title-left ul li.active H3 ,
+.kulanite .jm-tabs-title-left ul li.firstactive H3,
+.kulanite .jm-tabs-title-left ul li.lastactive H3 {
+	color: #0FA9CC;
+	line-height:52px;
+}
+
+/* JA Tabs right */
+.kulanite .jm-tab-panels-right .jm-tab-subcontent {
+	padding-left: 15px !important;
+}
+
+.kulanite .jm-tabs-title-right {
+	background: url(17pxblank2.gif) repeat-y left;
+}
+
+.kulanite .jm-tabs-title-right ul.jm-tabs-title {
+	margin: 0;
+	padding: 0;
+	position: absolute;
+	top: 10px;
+	right: 0;
+	width: 100%;
+}
+
+.kulanite * html .jm-tabs-title-right ul.jm-tabs-title { /*IE 6*/
+	right: -1px;
+}
+
+.kulanite .jm-tabs-title-right ul.jm-tabs-title li {
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	cursor: pointer;
+	display: block;
+	background: none;
+}
+
+.kulanite .jm-tabs-title-right ul.jm-tabs-title li h3 {
+	font-weight: bold !important;
+	margin: 0;
+	padding: 0 15px 0 0;
+	line-height: 30px;
+	letter-spacing: normal;
+	background: none;
+	font-size: 100%;
+	text-align: right;
+}
+
+.kulanite .jm-tabs-title-right ul li.active,
+.kulanite .jm-tabs-title-right ul li.firstactive,
+.kulanite .jm-tabs-title-right ul li.lastactive {
+	background: url(right-active.gif) no-repeat left;
+	font-size: 125%;
+}
+
+.kulanite .jm-tabs-title-right ul li.active H3 ,
+.kulanite .jm-tabs-title-right ul li.firstactive H3,
+.kulanite .jm-tabs-title-right ul li.lastactive H3 {
+	color: #0FA9CC;
+	line-height: 52px;
+}
+
+/* JA Tabs bottom*/
+.kulanite .jm-tabs-title-bottom {
+	height: 40px;
+	position: relative;
+	background: url(grad1.gif) repeat-x bottom;
+}
+
+.kulanite .jm-tabs-title-bottom ul.jm-tabs-title li {
+	background: url(tab-sep.gif) no-repeat 100% 20px;
+	height: 40px;
+}
+
+.kulanite .jm-tabs-title-bottom ul.jm-tabs-title li h3 {
+	font-weight: bold !important;
+	margin: 0;
+	padding: 20px 10px 0;
+	border-top: none;
+	letter-spacing: normal;
+	background: none;
+	font-size: 100%;
+}
+
+.kulanite .jm-tabs-title-bottom ul.jm-tabs-title li.active,
+.kulanite .jm-tabs-title-bottom ul.jm-tabs-title li.firstactive,
+.kulanite .jm-tabs-title-bottom ul.jm-tabs-title li.lastactive {
+	background: none;
+	font-size: 125%;
+	margin-left: -1px;
+}
+
+.kulanite .jm-tabs-title-bottom ul li.active h3,
+.kulanite .jm-tabs-title-bottom ul li.firstactive h3,
+.kulanite .jm-tabs-title-bottom ul li.lastactive h3 {
+	color: #0FA9CC;
+	padding: 0 0 0 10px;
+	background: url(tab-active.gif) no-repeat left top;
+}
+
+.kulanite .jm-tabs-title-bottom ul li.active h3 span,
+.kulanite .jm-tabs-title-bottom ul li.firstactive h3 span,
+.kulanite .jm-tabs-title-bottom ul li.lastactive h3 span {
+	padding: 14px 15px 16px 5px;
+	background: url(tab-active.gif) no-repeat right top;
+	display: block;
+}

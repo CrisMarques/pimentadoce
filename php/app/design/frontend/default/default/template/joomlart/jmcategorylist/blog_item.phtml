@@ -1,0 +1,66 @@
+	<div class="jm-boxwrap">
+		<div class="jmzin-box" style="">
+			<?php if(isset($config['showcat']) && $config['showcat']){?>
+				<div class="jmzin-section clearfix">
+					<?php if($config['link_cat']){?>
+					<a title="<?php echo $row['category']->getName()?>" href="<?php echo $row['category']->getUrl()?>">
+					<?php }?>
+						<span><?php echo $row['category']->getName()?></span>
+					<?php if($config['link_cat']){?>
+					</a>
+					<?php }?>
+				</div>
+			<?php }?>
+			
+			<?php if( $row['items']) $products = $row['items']->getItems(); ?>
+			
+			<?php if(isset($config['leading_product']) && intval($config['leading_product'])>0 ){?>
+    			<?php $count = $row['items']->count()<$config['leading_product']?$row['items']->count():$config['leading_product'];?>
+    			
+    			<?php $k = 0; ?>
+    			<?php if($products){?>
+	    			<?php foreach ($products as $id=>$_product){
+						$_product = Mage::getModel("catalog/product")->load($_product->getId())
+					?>				            			
+	        			<div class="jmzin-content clearfix">
+	        				<h4 class="jmzin-title">
+	        					<a title="<?php echo $_product->getName()?>" href="<?php echo $_product->getProductUrl()?>">
+	        						<?php echo $_product->getName()?>
+	        					</a>
+	        				</h4>
+	        				<img src="<?php echo $this->helper('catalog/image')->init($_product, 'thumbnail')->resize(50, 50)->setWatermarkSize('30x10'); ?>" alt="<?php echo $this->htmlEscape($_product->getName()) ?>"/>
+	        				<!-- show description and readmore -->
+							<?php if(($config['show_desc']) && ($config['maxchar'])):?>
+								<p>
+									<?php echo substr(strlen($_product->getDescription()) > 10 ? $_product->getDescription() : $_product->getShortDescription(),0, ($config['maxchar'])).'...';?>
+								</p>
+							<?php endif;?>
+							<?php if ($config['show_readmore']) : ?>
+	        				<a class="readon" title="<?php echo $this->helper("joomlart_jmcategorylist")->__('Read more...') ?>" href="<?php echo $_product->getProductUrl()?>"><?php echo $this->helper("joomlart_jmcategorylist")->__('Read more...') ?></a>
+							<?php endif; ?>
+	        			</div>
+	        			<?php unset($products[$id]);?>
+	        			<?php if(++$k==$count) break;?>
+					<?php }?>
+				<?php }?>
+			<?php }?>
+			
+			<?php if(isset($config['intro_product']) && intval($config['intro_product'])>0 && $products){?>			            		
+    			<strong class="jmzin-more"><?php echo $this->helper("joomlart_jmcategorylist")->__('See Also:') ?></strong>
+    			<ul class="disc jmzin-links">
+    				<?php if($products){?>
+	        			<?php foreach ($products as $id=>$_product){							
+								$_product = Mage::getModel("catalog/product")->load($_product->getId());
+						?>
+	            			<li>
+	        					<a title="<?php echo $_product->getName()?>" href="<?php echo $_product->getProductUrl()?>">
+	        						<?php echo $_product->getName()?>
+	        					</a>					            				
+	            			</li>
+	    				<?php }?>
+    				<?php }?>
+    			</ul>
+    				
+			<?php }?>      			
+		</div>
+	</div>

@@ -1,0 +1,94 @@
+h2.jmzin-title, h4.jmzin-title {
+	margin: 0;
+	padding: 0;
+	line-height: 1.1;
+	margin-bottom: 5px;
+	text-transform: none;
+	font-size: 125%;
+}
+
+/* CONTENT
+--------------------------------------------- */
+#jmzin-wrap {
+	padding: 0;
+	margin-left: 1px;
+}
+
+#jmzin {
+	padding: 0;
+}
+
+.jm-cat-left {
+	float: left;
+	background: url(dot.gif) repeat-y right;
+}
+
+.jm-cat-center {
+	float: left;
+	background: url(dot.gif) repeat-y right;
+}
+
+.jm-cat-right {
+	float: right;
+}
+
+.jmzin-box {
+	margin: 0;
+	padding: 15px;
+}
+
+.jm-cat-right .jmzin-box {
+	margin-left: 0;
+}
+
+.jm-cat-right .jmzin-box {
+	margin-right: 0;
+}
+
+div.jmzin-section {
+	display: block;
+	margin-bottom: 5px;
+}
+
+div.jmzin-section a, div.jmzin-section span {
+	padding: 0 2px 2px 0;
+	font-weight: bold;
+	text-transform: uppercase;
+	color: #999999;
+}
+
+div.jmzin-section a:hover,
+div.jmzin-section a:active,
+div.jmzin-section a:focus {
+	text-decoration: none;
+	color: #999999;
+}
+
+.jmzin-more {
+	color: #999999;
+	text-transform: uppercase;
+	display: block;
+	clear: both;
+	padding: 10px 0 2px;
+	margin-top: 10px;
+	background: url(dot-h.gif) repeat-x top;
+}
+
+ul.jmzin-links {
+	padding: 0;
+	margin: 0;
+}
+
+ul.jmzin-links li {
+	padding-left: 10px;
+	background-position: 2px 9px;
+}
+
+ul.jmzin-links li a {
+	color: #666666;
+}
+
+.jmzin-content img {
+	padding: 5px 10px 0 0;
+	float: left;
+}

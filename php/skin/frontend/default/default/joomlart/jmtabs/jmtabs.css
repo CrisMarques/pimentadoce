@@ -1,0 +1,169 @@
+/*------------------------------------------------------------------------
+# JA Mootabs css 1.0 - June, 2008
+# ------------------------------------------------------------------------
+# Copyright (C) 2004-2008 J.O.O.M Solutions Co., Ltd. All Rights Reserved.
+# @license - Copyrighted Commercial Software
+# Author: J.O.O.M Solutions Co., Ltd
+# Websites:  http://www.joomlart.com -  http://www.joomlancers.com
+-------------------------------------------------------------------------*/
+
+.jm-tabswrap {
+	padding: 0;
+	margin: 0;
+}
+
+.jm-tabswrap .container {
+	position: relative;
+	overflow: hidden;
+	height: 100%;
+	z-index: 10;
+}
+
+.jm-tabswrap .jm-tab-content ul {
+	margin: 0 !important;
+	padding: 0 !important;
+}
+
+.jm-tabswrap .jm-tab-content li {
+	padding: 4px 10px 6px 10px;
+}
+
+.jm-tabswrap .jm-tab-content .jm-tab-subcontent {
+	padding: 4px 10px 6px 10px;
+}
+
+
+/* For tabs Top */
+.jm-tabs-title-top {
+	position: relative;
+	z-index: 10;
+}
+
+.jm-tabs-title-top ul.jm-tabs-title {
+	margin: 0;
+	padding: 0;
+	position: absolute;
+}
+
+* html .jm-tabs-title-top ul.jm-tabs-title { /*IE 6*/
+	bottom: -1px;
+}
+
+.jm-tabs-title-top ul.jm-tabs-title li {
+	float: left;
+	background: none;
+	margin: 0;
+	padding: 0;
+	cursor: pointer;
+	display: block;
+}
+
+.jm-tab-panels-top {
+	position: relative;
+	clear: both;
+	overflow: hidden;
+	bottom: 0;
+	left: 0px;
+	width: 100%;
+	z-index: 1;
+}
+
+*+html  .jm-tab-panels-top{
+
+}
+/*End*/
+
+
+/*For tabs Left*/
+.jm-tabs-title-left {
+	float:left;	
+}
+
+.jm-tabs-title-left ul.jm-tabs-title {
+	margin: 0;
+	padding: 0;
+	top: 10px;
+	left: 0px;
+	width: 100%;
+}
+
+.jm-tabs-title-left ul.jm-tabs-title li {
+	margin: 0px 0 0 1px;
+	padding: 0;
+	cursor: pointer;
+	display: block;
+}
+
+.jm-tab-panels-left {
+	position: relative;
+	overflow: hidden;
+	top: 5px;
+	height:98%;
+	left:10px;
+}
+/*End*/
+
+
+/*For tabs right*/
+.jm-tabs-title-right {
+	position: relative;
+	float:right;	
+	height:100%;
+}
+
+.jm-tabs-title-right ul.jm-tabs-title {
+	margin: 0;
+	padding: 0;
+	position: absolute;
+	top: 10px;
+	right: 0;
+	width: 100%;
+}
+
+.jm-tabs-title-right ul.jm-tabs-title li {
+	margin: 0 0 0 1px;
+	padding: 0;
+	cursor: pointer;
+	display: block;
+}
+
+.jm-tab-panels-right {
+	position: relative;
+	overflow: hidden;
+	top: 5px;
+	height:98%;
+}
+
+/* for tabs bottom */
+.jm-tabs-title-bottom {
+}
+
+.jm-tabs-title-bottom ul.jm-tabs-title {
+	margin: 0;
+	padding: 0;
+	position: absolute;
+}
+
+* html .jm-tabs-title-bottom ul.jm-tabs-title { /*IE 6*/
+	top: -1px;
+}
+
+.jm-tabs-title-bottom ul.jm-tabs-title li {
+	float: left;
+	margin: 0;
+	padding: 0;
+	cursor: pointer;
+	display: block;
+}
+
+.jm-tab-panels-bottom {
+	position: relative;
+	clear: both;
+	overflow: hidden;
+	top: 0;
+	width:98%;
+	left: 10px;
+	right: 0px;
+	z-index: 1;
+}
+/*End*/

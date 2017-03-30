@@ -1,0 +1,145 @@
+h2.jmzin-title, h4.jmzin-title {
+	padding: 50px 20px 0 20px;
+	font: bold 18px 'Chivo',sans-serif;
+	text-transform:uppercase;
+	color:#fff;
+	margin:0;
+}
+
+h2.jmzin-title a , h4.jmzin-title a {color:#fff;}
+
+/* CONTENT
+--------------------------------------------- */
+.jm-product-list-bycat { overflow:hidden}
+.jm-product-list-bycat .main { padding:20px 0 0;}
+
+#jmzin-wrap {
+	padding: 0;
+	margin-left: 1px;
+}
+
+#jmzin {
+	padding: 0;
+}
+
+
+
+.jm-cat-left,
+.jm-cat-center,
+.jm-cat-right {
+	float: left;
+
+	width:300px !important;
+	
+}
+
+.jm-cat-left,
+.jm-cat-center { margin-right:10px !important}
+
+.jm-cat-right { margin-right:0;}
+
+.jmzin-box {
+	margin: 0;
+	padding:0;
+	position:relative
+}
+
+.jm-cat-right .jmzin-box {
+	margin-left: 0;
+}
+
+.jm-cat-right .jmzin-box {
+	margin-right: 0;
+}
+
+div.jmzin-section {
+	display: block;
+	position:absolute; 
+	left:0;
+	background:rgba(0,0,0,0.8);
+	padding:10px 20px;
+	bottom:0;
+	width:260px;
+	z-index:3;
+	transition: all 0.6s ease-out 0s;
+	
+}
+
+.jmzin-box:hover div.jmzin-section {transition: all 0.3s ease-out 0s; bottom:142px; background:none;}
+div.jm-boxwrap{
+	cursor: pointer;
+}
+div.jmzin-section a, div.jmzin-section span {
+	padding: 0 2px 2px 0;
+	font-weight: bold;
+	text-transform: uppercase;
+	color: #fff;
+}
+
+div.jmzin-section a:hover,
+div.jmzin-section a:active,
+div.jmzin-section a:focus {
+	text-decoration: none;
+	color: #999999;
+}
+
+.jmzin-more {
+	color: #999999;
+	text-transform: uppercase;
+	display: block;
+	clear: both;
+	padding: 10px 0 2px;
+	margin-top: 10px;
+	background: url(dot-h.gif) repeat-x top;
+}
+
+ul.jmzin-links {
+	padding: 0;
+	margin: 0;
+}
+
+ul.jmzin-links li {
+	padding-left: 10px;
+	background-position: 2px 9px;
+}
+
+ul.jmzin-links li a {
+	color: #666666;
+}
+
+h2.jmzin-title, 
+h4.jmzin-title,
+.jmzin-content p,
+.jmzin-more,
+ul.jmzin-links { display:none;}
+
+.jmzin-content { height:300px; width:300px; margin:0; padding:0; overflow:hidden; position:relative;}
+.jmzin-content img { position:absolute; left:o;top:0; z-index:1}
+
+.jmzin-box:hover .jmzin-content h2.jmzin-title, 
+.jmzin-box:hover .jmzin-content h4.jmzin-title,
+.jmzin-box:hover .jmzin-content p { display: block; z-index:4;}
+
+.jmzin-box:hover .jmzin-content p { padding:10px 20px; color:#fff;}
+
+.jmzin-content .mask-color {position:absolute;width:260px; padding:0 20px; height:180px; background:rgba(0,0,0,0.8);left:0;bottom:-200px;transition: all 0.8s ease-out 0s; z-index:2; color:#fff; font: normal 13px/20px Arial, Helvetica, sans-serif;-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=80)"; background:#000\0/}
+
+.jmzin-box:hover .jmzin-content .mask-color { bottom:0; transition: all 0.3s ease-out 0s;} 
+
+.jmzin-content .mask-color h3 { color:#fff; font:bold 18px/24px 'Chivo',sans-serif; text-transform:uppercase; padding-bottom:10px;}
+
+.feature-scroller{
+	height: 300px;
+    margin: 0 0 50px;
+    overflow: hidden;
+     position: relative;
+     width: 100%;
+}
+.feature-scroller-inner{
+	left: 0;
+    position: absolute;
+    top: 0;
+}
+.feature-scroller-box{
+	width:9999px;
+}

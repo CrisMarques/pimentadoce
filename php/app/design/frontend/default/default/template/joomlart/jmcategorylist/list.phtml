@@ -1,0 +1,28 @@
+<?php
+$cols = $config['perrow'];
+$count = 0;
+
+if($total < $cols) $cols = $total;
+if (!$cols) return;
+$width = 99/$cols;
+
+?>
+<div class="jm-product-list-bycat">
+	<div class="clearfix category-listing">
+		<?php if($config['title']){?><h2><?php echo $config['title']; ?></h2><?php }; ?>
+		<?php
+			$j = 0;
+  			for ($z = 0; $z < $cols; $z ++) :
+	  			$cls = $cols==1?'full':($z==0?'left':($z==$cols-1?'right':'center')); ?>
+	  			<div class="jm-cat-<?php echo $cls;?>" style="width:<?php echo $width;?>%">
+					
+	  				<?php for ($y = 0; $y < ($total / $cols) && $j<$total; $y ++) :
+					  $row = $listall[$j];					  
+					  include(dirname(__FILE__).DIRECTORY_SEPARATOR.'blog_item.phtml');
+					  $j++;
+					endfor; ?>
+					
+				</div>  			
+  			<?php endfor; ?>  			  			  			
+	</div>
+</div>

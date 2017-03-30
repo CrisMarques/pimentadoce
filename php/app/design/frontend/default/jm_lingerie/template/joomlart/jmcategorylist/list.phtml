@@ -1,0 +1,65 @@
+<script>
+jQuery.noConflict(); 
+/* calling thumbnailScroller function with options as parameters */
+(function($){
+
+$(document).ready(function() {
+  $(".feature-scroller").thumbnailScroller({ 
+		scrollerType:"hoverPrecise", 
+		scrollerOrientation:"horizontal", 
+		scrollSpeed:2, 
+		scrollEasing:"easeOutCirc", 
+		scrollEasingAmount:200, 
+		acceleration:4, 
+		scrollSpeed:800, 
+		noScrollCenterSpace:10, 
+		autoScrolling:0, 
+		autoScrollingSpeed:2000, 
+		autoScrollingEasing:"easeInOutQuad", 
+		autoScrollingDelay:500 
+	});
+});	
+
+})(jQuery);
+
+</script>
+
+<?php
+$cols = $config['perrow'];
+$count = 0;
+
+if($total < $cols) $cols = $total;
+if (!$cols) return;
+$width = 100/$cols;
+
+?>
+<div class="jm-product-list-bycat">
+	<div class="clearfix category-listing">
+		<div class="main">	
+			<div class="inner clearfix">
+				<?php if($config['title']){?><h2><?php echo $config['title']; ?></h2><?php }; ?>
+			</div>
+		</div>
+		<div class="feature-scroller jThumbnailScroller">
+			 <div class="jTscrollerContainer">
+			 	 <div class="jTscroller">
+					<?php
+						$j = 0;
+			  			for ($z = 0; $z < $cols; $z ++) :
+				  			$cls = $cols==1?'full':($z==0?'left':($z==$cols-1?'right':'center')); ?>
+				  			<div class="jm-cat-<?php echo $cls;?> feature-scroller-slide" >
+								
+				  				<?php for ($y = 0; $y < ($total / $cols) && $j<$total; $y ++) :
+								  $row = $listall[$j];					  
+								  include(dirname(__FILE__).DIRECTORY_SEPARATOR.'blog_item.phtml');
+								  $j++;
+								endfor; ?>
+								
+							</div>  			
+			  			<?php endfor; ?>
+			  	 </div>		
+			  </div> 			  
+		</div>
+	</div>
+</div>
+

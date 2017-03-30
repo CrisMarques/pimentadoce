@@ -1,0 +1,167 @@
+.methys .jm-tabswrap {
+	border: 1px solid #CCCCCC;
+}
+
+.methys .jm-tabswrap div.jm-tab-content {
+	width: 95%;
+}
+
+.methys .container {
+	height: auto;
+}
+
+/* JA Tabs top*/
+.methys .jm-tabs-title-top {
+	border-left: none;
+	position: relative;
+}
+
+.methys .jm-tabs-title-top ul.jm-tabs-title {
+	background: #F8F8F8 url(dot.gif) left bottom repeat-x;
+	position: relative;
+}
+
+.methys .jm-tabs-title-top ul.jm-tabs-title li.active,
+.methys .jm-tabs-title-bottom ul.jm-tabs-title li.active {
+	border-left: 1px solid #e1e1e2;
+	border-right: 1px solid #e1e1e2;
+}
+
+.methys .jm-tabs-title-top ul.jm-tabs-title li:first-child,
+.methys .jm-tabs-title-bottom ul.jm-tabs-title li:first-child  {
+	border-left: 0;
+}
+
+.methys .jm-tabs-title-top ul.jm-tabs-title li h3,
+.methys .jm-tabs-title-bottom ul.jm-tabs-title li h3 {
+	font-size: 92%;
+	margin: 0;
+	padding: 0;
+}
+
+.methys .jm-tabs-title-top ul.jm-tabs-title li h3 span,
+.methys .jm-tabs-title-bottom ul.jm-tabs-title li h3 span {
+	display: block;
+	font-family: "Arial Narrow",Arial,Helvetica,sans-serif;
+	text-transform: uppercase;
+	margin: 0;
+	padding: 5px 14px;
+	border: none;
+	color: #282724;
+	border-bottom: none;
+	float: left;
+	font-weight: normal;
+}
+
+.methys .jm-tabs-title-top ul.jm-tabs-title li.active,
+.methys .jm-tabs-title-top ul.jm-tabs-title li.firstactive,
+.methys .jm-tabs-title-top ul.jm-tabs-title li.lastactive ,
+
+.methys .jm-tabs-title-bottom ul.jm-tabs-title li.active,
+.methys .jm-tabs-title-bottom ul.jm-tabs-title li.firstactive,
+.methys .jm-tabs-title-bottom ul.jm-tabs-title li.lastactive{
+	border-bottom: none;
+	background: #fff;
+}
+
+.methys .jm-tabs-title-top ul.jm-tabs-title li.active h3 span,
+.methys .jm-tabs-title-bottom ul.jm-tabs-title li.active h3 span {
+	color: #282724;
+}
+
+.methys .jm-tabs-title-top ul li.active h3,
+.methys .jm-tabs-title-top ul li.firstactive h3,
+.methys .jm-tabs-title-top ul li.lastactive h3 	{}
+
+.jm-tabswrap.methys div.jm-tab-subcontent {
+	padding: 0 !important;
+}
+
+/* JA Tabs left*/
+.methys .jm-tabs-title-left {
+	position: relative;
+	float: left;
+	height: 100%;
+	background: url(17pxblank.gif) repeat-y right #F7F7F7;
+}
+
+.methys .jm-tabs-title-left ul.jm-tabs-title li {
+	height: 100%;
+	margin: 0 0 0 1px;
+	padding: 0;
+	cursor: pointer;
+	display: block;
+	background: none;
+}
+
+.methys .jm-tabs-title-left ul.jm-tabs-title li h3 {
+	font-size: 11px;
+	font-weight: bold !important;
+	line-height: 30px;
+	margin: 0;
+	padding: 0 10px;
+	background: none;
+	font-family: "Lucida Grande", Arial, sans-serif;
+	letter-spacing: normal;
+}
+
+.methys .jm-tabs-title-left ul li.active,.methys .jm-tabs-title-left ul li.firstactive,.methys .jm-tabs-title-left ul li.lastactive
+	{
+	background: url(left-active.gif) no-repeat right #FFFFFF;
+}
+
+.methys .jm-tabs-title-left ul li.active H3,.methys .jm-tabs-title-left ul li.firstactive H3,.methys .jm-tabs-title-left ul li.lastactive H3
+{
+	color: #333333;
+}
+
+/* JA Tabs right*/
+.methys .jm-tab-panels-right .jm-tab-subcontent {
+	padding-left: 15px !important;
+}
+
+.methys .jm-tabs-title-right {
+	background: url(17pxblank2.gif) repeat-y left #F7F7F7;
+}
+
+.methys .jm-tabs-title-right ul.jm-tabs-title li {
+	height: 100%;
+	margin: 0 0 0 1px;
+	padding: 0;
+	cursor: pointer;
+	display: block;
+	background: none;
+}
+
+.methys .jm-tabs-title-right ul.jm-tabs-title li h3 {
+	font-size: 11px;
+	font-weight: bold !important;
+	line-height: 30px;
+	margin: 0;
+	padding: 0 10px 0 25px;
+	background: none;
+	font-family: "Lucida Grande", Arial, sans-serif;
+	letter-spacing: normal;
+}
+
+.methys .jm-tabs-title-right ul li.active,.methys .jm-tabs-title-right ul li.firstactive,.methys .jm-tabs-title-right ul li.lastactive
+{
+	background: url(right-active.gif) no-repeat left #FFFFFF;
+}
+
+.methys .jm-tabs-title-right ul li.active H3,.methys .jm-tabs-title-right ul li.firstactive H3,.methys .jm-tabs-title-right ul li.lastactive H3
+	{
+	color: #333333;
+}
+
+/* JA Tabs bottom*/
+.methys .jm-tabs-title-bottom { }
+
+.methys .jm-tabs-title-bottom ul.jm-tabs-title{
+	background: #F8F8F8 url(dot.gif) left top repeat-x;
+	position: relative;
+}
+
+.methys .jm-tabs-content {
+	background: #fff;	
+}

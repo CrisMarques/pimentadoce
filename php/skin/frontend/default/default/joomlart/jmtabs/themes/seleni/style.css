@@ -1,0 +1,203 @@
+.jm-tabs {
+	border: none;
+}
+
+.jm-tabswrap .jm-tab-content .jm-tab-subcontent {
+	padding: 0;
+	margin: 0 !important;
+}
+
+.seleni .jm-tabswrap {
+	border: 1px solid #C9C0B7;
+}
+.seleni .jm-tabswrap div.jm-tab-content {	
+	width: 95%;
+}
+
+.seleni div.tabs_content {
+	border: 1px solid #D5D5D5;
+}
+/* JA Tabs top*/
+.seleni .jm-tabs-title-top {
+	height: 32px !important;
+	position: relative;
+	width: 100%;
+	border-bottom: 1px solid #FFFFFF;
+}
+
+.seleni .jm-tabs-title-top ul.jm-tabs-title {
+	display: block;
+	height: 32px;
+	line-height: 32px;
+	color: #454545;
+}
+
+.seleni .jm-tabs-title-top ul.jm-tabs-title li {
+	background: #F2F2F2;
+	line-height: 32px;
+	height: 32px;
+	border: 1px solid #D5D5D5;
+}
+
+.seleni .jm-tabs-title-top ul.jm-tabs-title li h3 {
+	font-size: 92%;
+	text-transform: uppercase;
+	line-height: 32px;
+	height: 32px;
+	margin: 0;
+	padding: 0 10px;
+	float: left;
+}
+
+.seleni .jm-tabs-title-top ul.jm-tabs-title li h3 a {
+	text-decoration: none;
+	outline: none;
+}
+
+.seleni .jm-tabs-title-top ul.jm-tabs-title li.hover,
+.seleni .jm-tabs-title-top ul.jm-tabs-title li.firsthover,
+.seleni .jm-tabs-title-top ul.jm-tabs-title li.lasthover {
+}
+
+.seleni .jm-tabs-title-top ul.jm-tabs-title li.active,
+.seleni .jm-tabs-title-top ul.jm-tabs-title li.firstactive,
+.seleni .jm-tabs-title-top ul.jm-tabs-title li.lastactive {
+	border-left: 1px solid #D5D5D5;
+	border-top: 1px solid #D5D5D5;
+	border-right: 1px solid #D5D5D5;
+	border-bottom: 1px solid #FFFFFF;
+	background: #FFFFFF;
+}
+
+.seleni .jm-tabs-title-top ul li.active h3 ,
+.seleni .jm-tabs-title-top ul li.firstactive h3,
+.seleni .jm-tabs-title-top ul li.lastactive h3 {
+	color: #454545;
+}
+
+/* JA Tabs left*/
+.seleni .jm-tabs-title-left {
+	position: relative;
+	float: left;	
+	height: 100%;
+	width: 32px;
+}
+
+.seleni .jm-tabs-title-left ul.jm-tabs-title li {
+	height: 100%;
+	margin: 0 0 0 1px;
+	padding: 0;
+	cursor: pointer;
+	display: block;
+	background: none;
+}
+
+.seleni .jm-tabs-title-left ul.jm-tabs-title li h3 {
+	font-size: 11px;
+	font-weight: bold !important;
+	line-height: 30px;
+	margin: 0;
+	padding: 0 10px;
+	background: none;
+	font-family: "Lucida Grande", Arial, sans-serif;
+	letter-spacing: normal;
+}
+
+.seleni .jm-tabs-title-left ul li.active,
+.seleni .jm-tabs-title-left ul li.firstactive,
+.seleni .jm-tabs-title-left ul li.lastactive {
+}
+
+.seleni .jm-tabs-title-left ul li.active H3 ,
+.seleni .jm-tabs-title-left ul li.firstactive H3,
+.seleni .jm-tabs-title-left ul li.lastactive H3 {
+	color: #454545;
+}
+
+
+/* JA Tabs right*/
+.seleni .jm-tab-panels-right .jm-tab-subcontent {
+	padding-left: 15px !important;
+}
+
+.seleni .jm-tabs-title-right {
+}
+
+.seleni .jm-tabs-title-right ul.jm-tabs-title li {
+	height: 100%;
+	margin: 0 0 0 1px;
+	padding: 0;
+	cursor: pointer;
+	display: block;
+	background: none;
+}
+
+.seleni .jm-tabs-title-right ul.jm-tabs-title li h3 {
+	font-size: 11px;
+	font-weight: bold !important;
+	line-height: 30px;
+	margin: 0;
+	padding: 0 10px 0 25px;
+	background: none;
+	font-family: "Lucida Grande", Arial, sans-serif;
+	letter-spacing: normal;
+}
+
+.seleni .jm-tabs-title-right ul li.active,
+.seleni .jm-tabs-title-right ul li.firstactive,
+.seleni .jm-tabs-title-right ul li.lastactive {
+}
+
+.seleni .jm-tabs-title-right ul li.active H3 ,
+.seleni .jm-tabs-title-right ul li.firstactive H3,
+.seleni .jm-tabs-title-right ul li.lastactive H3 {
+	color: #454545;
+}
+
+/* JA Tabs bottom*/
+
+.seleni .jm-tabs-title-bottom {
+	height: 32px !important;
+	position: relative;
+	width: 100%;
+	border-top: 1px solid #D5D5D5;
+}
+
+.seleni .jm-tabs-title-bottom ul.jm-tabs-title {
+	display: block;
+	padding-left: 15px;
+	height: 32px;
+	line-height: 32px;
+}
+
+.seleni .jm-tabs-title-bottom ul.jm-tabs-title li {
+	background: none;
+	line-height: 32px;
+	height: 32px;
+}
+
+.seleni .jm-tabs-title-bottom ul.jm-tabs-title li h3 {
+	font-size: 92%;
+	text-transform: uppercase;
+	line-height: 32px;
+	height: 32px;
+	margin: 0;
+	padding: 0 10px;
+	background: none;
+	color: #FFFFFF;
+}
+
+.seleni .jm-tabs-title-bottom ul.jm-tabs-title li.active,
+.seleni .jm-tabs-title-bottom ul.jm-tabs-title li.firstactive,
+.seleni .jm-tabs-title-bottom ul.jm-tabs-title li.lastactive {
+	border-left: 1px solid #D5D5D5;
+	border-right: 1px solid #D5D5D5;
+	border-top: 1px solid #171717;
+	margin-top: -1px;
+}
+
+.seleni .jm-tabs-title-bottom ul li.active h3 ,
+.seleni .jm-tabs-title-bottom ul li.firstactive h3,
+.seleni .jm-tabs-title-bottom ul li.lastactive h3 {
+	color: #454545;
+}

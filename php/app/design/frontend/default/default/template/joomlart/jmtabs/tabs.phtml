@@ -1,0 +1,181 @@
+<?php if(!defined('JM_ADD_SKIN_TABS')){?>
+<?php if(!defined('JM_ADD_JQUERY')){;?>
+<script type="text/javascript" src="<?php echo $this->getSkinUrl('joomlart/jmtabs/js/jquery.js') ?>"></script>
+<?php define('JM_ADD_JQUERY', true); ?>
+<?php } ?>
+<script type="text/javascript">
+jQuery.noConflict(); 
+
+var JmTabs = {
+    init: function() {    
+        jQuery(".jm-tabs-title .tab").<?php echo $config['event'];?>(function() {
+            ind = jQuery(this).parent().parent().prevAll().size();  
+            
+            jQuery(".jm-tabs-title li").removeClass("first active"); 
+            jQuery(".jm-tabs-title li:eq("+ind+")").addClass("first active"); 
+            
+            JmTabs.tabContent(jQuery(this)); 
+            jQuery(this).trigger("tabclick"); 
+        });
+        //active the first tab
+        jQuery(window).load (function (){JmTabs.tabContent(jQuery(".jm-tabs-title .tab:first"))}); 
+    },
+    
+    tabContent: function(obj) {
+        ind = jQuery(obj).parent().parent().prevAll().size(); 
+        <?php if(!$config['skipanim']){ ?>
+            <?php if($config['animation']=='animMoveHor'){ ?>
+                                    
+                    var margin = jQuery("#<?php echo $tabsid;?> .tabs_content").width();
+                    //alert(margin); 
+                    <?php if($config['width']=='auto'){ ?>
+                        jQuery("#<?php echo $tabsid;?> .jm-tab-panels-<?php echo $config['position'];?> .jm-tab-content").css({width: margin+'px'});       
+                    <?php } ?>    
+                    
+                    margin = margin * ind;
+                    margin = margin * -1;
+
+                    jQuery(".jm-tab-panels-<?php echo $config['position'];?>").stop().animate({
+                        marginLeft: margin + "px"
+                    }, {
+                        duration: <?php echo $config['duration'];?>
+                    });  
+
+            <?php }else if($config['animation']=='animMoveVer'){ ?>                 
+                    
+                    var margin=0;
+                    for (var i=0;i<ind;i++) {   
+                        margin = margin + jQuery(".jm-tab-content:eq("+i+")").height();
+                    }
+                    //alert(margin);
+                    margin = margin * -1;
+                    
+                    jQuery(".jm-tab-panels-<?php echo $config['position'];?>").stop().animate({
+                        marginTop: margin + "px"
+                    }, {
+                        duration: <?php echo $config['duration'];?>     
+                    });
+
+            <?php }else if($config['animation']=='fadeIn'){ ?> 
+                    jQuery("#<?php echo $tabsid;?> .jm-tab-panels-<?php echo $config['position'];?> .jm-tab-content").hide();
+                    jQuery("#<?php echo $tabsid;?> .jm-tab-panels-<?php echo $config['position'];?> .jm-tab-content:eq("+ind+")").<?php echo $config['animation'];?>("<?php echo $config['duration'];?>");
+
+            <?php } ?>
+        <?php }else{ ?>    
+                jQuery("#<?php echo $tabsid;?> .jm-tab-panels-<?php echo $config['position'];?> .jm-tab-content").hide();
+                jQuery("#<?php echo $tabsid;?> .jm-tab-panels-<?php echo $config['position'];?> .jm-tab-content:eq("+ind+")").show();
+        <?php } ?>
+        
+        //resize the height of the sub-panel
+        <?php if($config['height'] !== 'auto'){ ?>
+          var panelheight = <?php echo $config['height'];?>+'px'; 
+        <?php } ?>    
+        <?php if($config['animation']=='animMoveVer'){ ?>        
+            setTimeout(function(){
+
+                if(!panelheight) { 
+                    var panelheight = (jQuery("#<?php echo $tabsid;?> .jm-tab-panels-<?php echo $config['position'];?> .jm-tab-content:eq("+ind+")").height())+'px';
+                 }
+                 
+                jQuery(".tabs_content").animate({'height':panelheight},{queue:false, duration:1000}); 
+            });
+        <?php }else{ ?>
+
+            setTimeout(function(){
+
+                 if(!panelheight) { 
+                    var panelheight = (jQuery("#<?php echo $tabsid;?> .jm-tab-panels-<?php echo $config['position'];?> .jm-tab-content:eq("+ind+")").height())+'px';
+                 }
+
+                jQuery('#<?php echo $tabsid;?> .jm-tab-panels-<?php echo $config['position'];?>').animate({'height':panelheight},{queue:false, duration:1000}); 
+            });
+        <?php } ?>        
+    }
+}
+
+jQuery(document).ready(function() {
+    jQuery(".jm-tabs-title li:eq(0)").addClass("first active"); 
+    
+    var panelwidth = jQuery("#<?php echo $tabsid;?> .tabs_content").width();
+    
+    //alert(margin); 
+    <?php if($config['width']=='auto'){ ?>
+        jQuery("#<?php echo $tabsid;?> .jm-tab-panels-<?php echo $config['position'];?> .jm-tab-content").css({'width': panelwidth+'px'});       
+<?php } ?>
+        
+        //Get the height of the sub-panel
+        <?php if($config['height']=='auto'){ ?>
+            var panelheight = jQuery("#<?php echo $tabsid;?> .jm-tab-panels-<?php echo $config['position'];?> .jm-tab-content:eq(0)").height();
+        <?php }else{ ?>
+            var panelheight = <?php echo $config['height'];?>;
+            //jQuery(".jm-tab-content").css({"height":panelheight+"px",<?php echo $config['animation']=='animMoveVer'?'"overflow":"hidden"':'';?>});  
+        <?php } ?>    
+        
+<?php if($config['animation']=='animMoveVer'){ ?>         
+        setTimeout(function(){
+            jQuery(".tabs_content").css({'height':panelheight+'px'});            
+        });
+<?php }else{ ?>
+        setTimeout(function(){
+            jQuery('#<?php echo $tabsid;?> .jm-tab-panels-<?php echo $config['position'];?>').css({'height':panelheight+'px'}); 
+        });
+    <?php } ?>
+    JmTabs.init();
+});
+</script>
+<?php  define('JM_ADD_SKIN_TABS', true); ?>
+<?php }?>
+
+<div class="box jm-tabs">
+    <?php if(isset($config['title']) && $config['title']!=''){?>
+    <div class="head">       
+        <h4><span><?php echo $config['title'] ?></span></h4>
+    </div>
+    <?php }?>
+    <div>
+        <?php if(count($titles)>0 && count($contents)>0): ?>
+            <div class="jm-tabswrap jm-animation-<?php echo $config['animation'];?> <?php echo $config['style'];?>">    
+                <div id="<?php echo $tabsid;?>" class="container">                    
+                    <?php if($config['position']!='bottom'){?>
+                    <div class="jm-tabs-title-<?php echo $config['position'];?>" style="<?php echo $config['width']=='auto'?'':'width:'.$config['width'].'px';?>">            
+                        <ul class="jm-tabs-title">
+                            <?php foreach ($titles as $key_title => $title){ ?>
+                                <li><h3><span class="tab"><?php echo $title;?></span></h3></li>                            
+                            <?php }?>
+                        </ul>
+                    </div>
+                    <?php } ?>
+                    <?php
+                    if ($config['animation']=='animMoveHor') {
+                        $styleJmTabPanels = 'width: ' . ((count($contents) * 100) + 1) . '%;';
+                    }
+                    else {
+                        $styleJmTabPanels = 'height: auto;';
+                    }
+                    ?>
+                    <div class="tabs_content" style="overflow:hidden;<?php echo $config['width']=='auto'?'':'width:'.$config['width'].'px';?>;<?php echo $config['height']=='auto'?'':'height:'.$config['height'].'px';?>">
+                        <div class="jm-tab-panels-<?php echo $config['position'];?>" style="<?php echo $styleJmTabPanels; ?>">
+                        <?php foreach ($contents as $key_content => $content){ ?>                        
+                                <div class="jm-tab-content" style="float: left;<?php echo $config['width']=='auto'?'':'width:'.$config['width'].'px';?>">
+                                    <div id="jm-tab-<?php echo $key_content+1;?>" class="jm-tab-subcontent">
+                                        <?php echo $content;?>
+                                    </div>
+                                </div>                
+                        <?php }?>
+                        </div>                            
+                        
+                    </div>
+                    <?php if($config['position']=='bottom'){?>
+                    <div class="jm-tabs-title-<?php echo $config['position'];?>" style="<?php echo $config['width']=='auto'?'':'width:'.$config['width'].'px';?>">            
+                        <ul class="jm-tabs-title">
+                            <?php foreach ($titles as $key_title => $title){ ?>
+                                <li><h3><span class="tab"><?php echo $title;?></span></h3></li>                            
+                            <?php }?>
+                        </ul>
+                    </div>
+                    <?php } ?>
+                </div>
+            </div>
+        <?php endif;?>
+    </div>
+</div>

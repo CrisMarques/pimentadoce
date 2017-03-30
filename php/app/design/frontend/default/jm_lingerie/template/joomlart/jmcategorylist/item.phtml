@@ -1,0 +1,47 @@
+	
+    
+	<div class="jm-boxwrap">
+		<div class="jmzin-box" style="">
+			<?php if(isset($config['showcat']) && $config['showcat']){?>
+				<div class="jmzin-section clearfix">
+					<?php if($config['link_cat']){?>
+					<a title="<?php echo $row['category']->getName()?>" href="<?php echo $row['category']->getUrl()?>">
+					<?php }?>
+						<span><?php echo $row['category']->getName()?></span>
+					<?php if($config['link_cat']){?>
+					</a>
+					<?php }?>
+				</div>
+			<?php }?>
+			
+				 <?php
+					    $_helper    = $this->helper('catalog/output');
+					    $_category  = $row['category'];
+					    $_imgHtml   = '';
+					    if ($_imgUrl = $_category->getImageUrl()) {
+					        $_imgHtml = '<img src="'.$_imgUrl.'" alt="'.$this->htmlEscape($_category->getName()).'" title="'.$this->htmlEscape($_category->getName()).'" />';
+					        $_imgHtml = $_helper->categoryAttribute($_category, $_imgHtml, 'image');
+					    }
+                ?>           			
+    			<div class="jmzin-content clearfix">
+    				<?php if($_imgUrl): ?>
+                      <?php echo $_imgHtml ?>
+                    <?php endif; ?>
+					<div class="mask-color">
+
+					<!-- show description and readmore -->
+    				<?php if($_description=$_category->getDescription()): ?>
+					    <p>
+					        <?php echo $_helper->categoryAttribute($_category, $_description, 'description') ?>
+					    </p>
+                    <?php endif; ?>
+    				
+					
+					</div>
+    			</div>
+	        			
+			
+				
+		</div>
+	</div>
+  

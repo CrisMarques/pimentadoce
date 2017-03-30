@@ -1,0 +1,157 @@
+/* JA Tabs left*/
+.scerif .jm-tabs-title-left ul.jm-tabs-title li {
+	border-left: 5px solid #000;
+	margin: 0
+}
+
+.scerif .jm-tabs-title-left ul.jm-tabs-title li h3 {
+	border-bottom: 1px solid #ccc;
+	padding: 10px 20px;
+	margin: 0;
+	font-size: 120%;
+}
+
+.scerif .jm-tabs-title-left ul li.active,
+.scerif .jm-tabs-title-left ul li.firstactive,
+.scerif .jm-tabs-title-left ul li.lastactive {
+	border-left: 5px solid #ff7c3b;
+}
+
+.scerif .jm-tabs-title-left ul li.active H3 ,
+.scerif .jm-tabs-title-left ul li.firstactive H3,
+.scerif .jm-tabs-title-left ul li.lastactive H3 {
+	color: #ff7c3b;
+}
+
+/* JA Tabs right*/
+.scerif .jm-tabs-title-right ul.jm-tabs-title li {
+	border-right: 5px solid #000;
+	margin: 0
+}
+
+.scerif .jm-tabs-title-right ul.jm-tabs-title li h3 {
+	border-bottom: 1px solid #ccc;
+	padding: 10px 20px;
+	margin: 0;
+	font-size: 120%;
+}
+
+.scerif .jm-tabs-title-right ul li.active,
+.scerif .jm-tabs-title-right ul li.firstactive,
+.scerif .jm-tabs-title-right ul li.lastactive {
+	border-right: 5px solid #ff7c3b;
+}
+
+.scerif .jm-tabs-title-right ul li.active H3 ,
+.scerif .jm-tabs-title-right ul li.firstactive H3,
+.scerif .jm-tabs-title-right ul li.lastactive H3 {
+	color: #ff7c3b;
+}
+
+/* JA Tabs bottom*/
+.jm-tab-panels-bottom {
+	left: 0;
+}
+
+.scerif .jm-tabs-title-bottom {
+	border-left: 1px solid #ccc;
+	overflow: hidden;
+}
+
+.scerif .jm-tabs-title-bottom ul.jm-tabs-title {
+	position: static;
+}
+
+.scerif .jm-tabs-title-bottom ul.jm-tabs-title li {
+	border-bottom: 5px solid #000;
+}
+
+.scerif .jm-tabs-title-bottom ul.jm-tabs-title li h3 {
+	border-right: 1px solid #ccc;
+	padding: 10px 20px;
+	margin: 0;
+	font-size: 120%;
+}
+
+.scerif .jm-tabs-title-bottom ul.jm-tabs-title li.active,
+.scerif .jm-tabs-title-bottom ul.jm-tabs-title li.firstactive,
+.scerif .jm-tabs-title-bottom ul.jm-tabs-title li.lastactive {
+	border-bottom: 5px solid #ff7c3b;
+}
+
+.scerif .jm-tabs-title-bottom ul li.active h3 ,
+.scerif .jm-tabs-title-bottom ul li.firstactive h3,
+.scerif .jm-tabs-title-bottom ul li.lastactive h3 {
+	color: #ff7c3b;
+}
+
+/* JA Tabs*/
+.scerif {
+	margin-top: -5px;
+}
+
+.scerif .jm-tab-content li {
+  padding: 0;
+}
+
+.scerif .jm-tab-content .jm-tab-subcontent {
+   padding: 0;
+}
+
+.scerif .jm-tabs-title-top {
+	border-left: 1px solid #ccc;
+	overflow: hidden;
+}
+
+.scerif .jm-tab-content .listing-type-grid {
+   padding: 20px 10px
+}
+
+.scerif { }
+
+.scerif .jm-tabs-title-top ul.jm-tabs-title li {
+	border-top: 5px solid #000;
+}
+
+.scerif .jm-tabs-title-top ul.jm-tabs-title li.active {
+	border-top: 5px solid #ff7c3b;
+}
+
+.scerif .jm-tabs-title-top ul.jm-tabs-title li h3 {
+	border-right: 1px solid #ccc;
+	padding: 10px 20px;
+	margin: 0;
+	font-size: 120%;
+}
+
+.scerif .jm-tabs-title-top ul.jm-tabs-title li:hover h3,
+.scerif .jm-tabs-title-top ul.jm-tabs-title li.active h3 {
+	color: #ff7c3b;
+}
+
+.scerif .tabs_content {
+	border: 1px solid #C9C0B7;
+	clear: both;
+	float: none;
+}
+
+.scerif .jm-tabs-title-top ul.jm-tabs-title {
+	position: static;
+}
+
+.scerif .read-more {
+	margin-top: 5px;
+}
+
+.scerif .jm-tabs .head {
+	overflow: hidden;
+	border-left: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+	padding: 0 20px;
+	margin-bottom: 5px;
+}
+
+.scerif .jm-tabs .head h4 {
+	height: 40px;
+	line-height: 40px;
+}
